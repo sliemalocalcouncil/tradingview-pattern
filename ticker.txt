@@ -1,0 +1,22 @@
+# One ticker per line. Lines starting with # are ignored.
+# Replace with your own watchlist (keep liquid US equities for best results).
+AAPL
+MSFT
+NVDA
+AMD
+META
+GOOGL
+AMZN
+TSLA
+AVGO
+CRM
+NFLX
+SHOP
+PLTR
+COIN
+SMCI
+ARM
+ANET
+DDOG
+SNOW
+MDB
