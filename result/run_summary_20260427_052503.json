@@ -1,0 +1,77 @@
+{
+  "run_id": "20260427T052503Z-4c71bc",
+  "asof": "2026-04-27T05:25:03.937645+00:00",
+  "n_signals": 239,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 67,
+    "vcp": 78,
+    "ascending_triangle": 22,
+    "bull_flag": 50,
+    "breakout_retest_hold": 12,
+    "cup_with_handle": 4,
+    "base_on_base": 2,
+    "inverse_head_shoulders": 3,
+    "high_tight_pullback": 1
+  },
+  "by_state": {
+    "absent": 123,
+    "forming": 75,
+    "breakout_confirmed": 11,
+    "setup": 13,
+    "invalidated": 17
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 67,
+      "vcp": 78,
+      "ascending_triangle": 22,
+      "bull_flag": 50,
+      "breakout_retest_hold": 12,
+      "cup_with_handle": 4,
+      "base_on_base": 2,
+      "inverse_head_shoulders": 3,
+      "high_tight_pullback": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 7,
+      "breakout": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ORRF",
+      "pattern": "breakout_retest_hold",
+      "score": 68.91,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "MIR",
+      "pattern": "breakout_retest_hold",
+      "score": 65.68,
+      "state": "setup"
+    },
+    {
+      "ticker": "VNET",
+      "pattern": "breakout_retest_hold",
+      "score": 57.64,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "double_bottom",
+      "score": 56.62,
+      "state": "forming"
+    },
+    {
+      "ticker": "VNET",
+      "pattern": "bull_flag",
+      "score": 56.16,
+      "state": "absent"
+    }
+  ]
+}
