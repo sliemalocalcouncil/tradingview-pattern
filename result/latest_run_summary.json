@@ -1,44 +1,46 @@
 {
-  "run_id": "20260428T180643Z-d5999b",
-  "asof": "2026-04-28T18:06:43.739236+00:00",
-  "n_signals": 178,
+  "run_id": "20260428T200246Z-831d24",
+  "asof": "2026-04-28T20:02:46.736401+00:00",
+  "n_signals": 216,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 51,
-    "vcp": 60,
-    "breakout_retest_hold": 17,
-    "ascending_triangle": 9,
-    "bull_flag": 25,
-    "inverse_head_shoulders": 8,
+    "double_bottom": 64,
+    "vcp": 70,
+    "breakout_retest_hold": 15,
+    "inverse_head_shoulders": 15,
+    "bull_flag": 34,
     "cup_with_handle": 6,
+    "ascending_triangle": 9,
     "base_on_base": 1,
-    "high_tight_pullback": 1
+    "high_tight_pullback": 2
   },
   "by_state": {
-    "absent": 87,
-    "setup": 17,
+    "absent": 106,
+    "forming": 69,
+    "setup": 13,
     "retest_hold": 2,
-    "forming": 54,
     "invalidated": 7,
-    "candidate": 3,
-    "breakout_confirmed": 8
+    "candidate": 4,
+    "breakout_confirmed": 14,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 51,
-      "vcp": 60,
-      "breakout_retest_hold": 17,
-      "ascending_triangle": 9,
-      "bull_flag": 25,
-      "inverse_head_shoulders": 8,
+      "double_bottom": 64,
+      "vcp": 70,
+      "breakout_retest_hold": 14,
+      "inverse_head_shoulders": 15,
+      "bull_flag": 34,
       "cup_with_handle": 6,
+      "ascending_triangle": 9,
       "base_on_base": 1,
-      "high_tight_pullback": 1
+      "high_tight_pullback": 2
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "retest": 1,
-      "invalidated": 2
+      "invalidated": 2,
+      "breakout": 2,
+      "failed": 1
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -48,32 +50,32 @@
     {
       "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 64.69,
-      "state": "candidate"
-    },
-    {
-      "ticker": "EXLS",
-      "pattern": "breakout_retest_hold",
-      "score": 63.81,
-      "state": "candidate"
-    },
-    {
-      "ticker": "EXPO",
-      "pattern": "breakout_retest_hold",
-      "score": 62.83,
+      "score": 67.01,
       "state": "candidate"
     },
     {
       "ticker": "INTU",
       "pattern": "breakout_retest_hold",
-      "score": 61.57,
+      "score": 65.57,
       "state": "retest_hold"
     },
     {
-      "ticker": "CNR",
+      "ticker": "NIC",
       "pattern": "breakout_retest_hold",
-      "score": 61.28,
+      "score": 65.38,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "breakout_retest_hold",
+      "score": 62.28,
       "state": "setup"
+    },
+    {
+      "ticker": "OMCL",
+      "pattern": "high_tight_pullback",
+      "score": 61.91,
+      "state": "candidate"
     }
   ]
 }
