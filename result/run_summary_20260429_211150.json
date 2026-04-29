@@ -1,0 +1,78 @@
+{
+  "run_id": "20260429T211150Z-a68b53",
+  "asof": "2026-04-29T21:11:50.840918+00:00",
+  "n_signals": 230,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 70,
+    "bull_flag": 40,
+    "vcp": 77,
+    "inverse_head_shoulders": 17,
+    "breakout_retest_hold": 9,
+    "ascending_triangle": 7,
+    "cup_with_handle": 6,
+    "base_on_base": 1,
+    "high_tight_pullback": 3
+  },
+  "by_state": {
+    "breakout_confirmed": 19,
+    "forming": 77,
+    "absent": 106,
+    "setup": 2,
+    "invalidated": 19,
+    "candidate": 4,
+    "retest_hold": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 70,
+      "bull_flag": 40,
+      "vcp": 77,
+      "inverse_head_shoulders": 17,
+      "breakout_retest_hold": 8,
+      "ascending_triangle": 7,
+      "cup_with_handle": 6,
+      "base_on_base": 1,
+      "high_tight_pullback": 3
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "invalidated": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "PRCH",
+      "pattern": "high_tight_pullback",
+      "score": 67.15,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "inverse_head_shoulders",
+      "score": 63.84,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "cup_with_handle",
+      "score": 63.53,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 63.02,
+      "state": "candidate"
+    },
+    {
+      "ticker": "CNR",
+      "pattern": "breakout_retest_hold",
+      "score": 60.85,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
