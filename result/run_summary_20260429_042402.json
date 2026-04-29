@@ -1,0 +1,76 @@
+{
+  "run_id": "20260429T042402Z-4f6251",
+  "asof": "2026-04-29T04:24:02.652419+00:00",
+  "n_signals": 244,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 72,
+    "vcp": 78,
+    "breakout_retest_hold": 17,
+    "inverse_head_shoulders": 18,
+    "bull_flag": 38,
+    "cup_with_handle": 7,
+    "ascending_triangle": 10,
+    "base_on_base": 2,
+    "high_tight_pullback": 2
+  },
+  "by_state": {
+    "absent": 119,
+    "forming": 82,
+    "setup": 15,
+    "retest_hold": 4,
+    "invalidated": 7,
+    "candidate": 4,
+    "breakout_confirmed": 13
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 72,
+      "vcp": 78,
+      "breakout_retest_hold": 17,
+      "inverse_head_shoulders": 18,
+      "bull_flag": 38,
+      "cup_with_handle": 7,
+      "ascending_triangle": 10,
+      "base_on_base": 2,
+      "high_tight_pullback": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 66.95,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NIC",
+      "pattern": "breakout_retest_hold",
+      "score": 66.47,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "INTU",
+      "pattern": "breakout_retest_hold",
+      "score": 65.73,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "breakout_retest_hold",
+      "score": 62.49,
+      "state": "setup"
+    },
+    {
+      "ticker": "OMCL",
+      "pattern": "high_tight_pullback",
+      "score": 62.09,
+      "state": "candidate"
+    }
+  ]
+}

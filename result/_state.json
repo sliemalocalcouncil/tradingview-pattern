@@ -132,7 +132,7 @@
   },
   "APPF::vcp": {
     "invalid_below": 140.58905,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 163.73
   },
@@ -143,7 +143,7 @@
   },
   "ARLP::double_bottom": {
     "invalid_below": 24.1325,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 25.9899
   },
@@ -184,7 +184,7 @@
   },
   "AXON::breakout_retest_hold": {
     "invalid_below": 396.4455,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 394.32
   },
@@ -214,7 +214,7 @@
     "last_alert_score": 53.46,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 15.85
   },
   "BETA::vcp": {
@@ -239,7 +239,7 @@
   },
   "BTU::breakout_retest_hold": {
     "invalid_below": 25.9578,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 26.23
   },
@@ -260,19 +260,19 @@
   },
   "CCB::ascending_triangle": {
     "invalid_below": 80.075575,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 85.88
   },
   "CCB::double_bottom": {
     "invalid_below": 81.4595,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 85.88
   },
   "CCB::vcp": {
     "invalid_below": 79.799775,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 85.88
   },
@@ -313,7 +313,7 @@
   },
   "CNR::breakout_retest_hold": {
     "invalid_below": 87.3279,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 88.25
   },
@@ -334,7 +334,7 @@
   },
   "CTRE::breakout_retest_hold": {
     "invalid_below": 38.7585,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 38.77
   },
@@ -370,7 +370,7 @@
   },
   "EBC::breakout_retest_hold": {
     "invalid_below": 19.86435,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 20.005
   },
@@ -381,7 +381,7 @@
   },
   "EBC::vcp": {
     "invalid_below": 17.99989,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 19.485
   },
@@ -407,7 +407,7 @@
   },
   "EXE::breakout_retest_hold": {
     "invalid_below": 95.139,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 96.7
   },
@@ -463,7 +463,7 @@
   },
   "FBK::breakout_retest_hold": {
     "invalid_below": 54.0936,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 54.72
   },
@@ -507,7 +507,7 @@
   },
   "FROG::breakout_retest_hold": {
     "invalid_below": 44.322300000000006,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 44.96
   },
@@ -745,7 +745,7 @@
     "last_alert_at": "2026-04-28T18:06:58.429297+00:00",
     "last_alert_score": 61.57,
     "last_alert_type": "retest",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "retest_hold",
     "trigger": 398.99
   },
@@ -941,13 +941,13 @@
     "last_alert_at": "2026-04-28T20:04:09.100949+00:00",
     "last_alert_score": 65.38,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 146.852
   },
   "NIC::double_bottom": {
     "invalid_below": 141.0126,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 147.12
   },
@@ -968,7 +968,7 @@
   },
   "NOW::breakout_retest_hold": {
     "invalid_below": 89.232165,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 88.0
   },
@@ -1028,7 +1028,7 @@
   },
   "OMCL::cup_with_handle": {
     "invalid_below": 34.9675,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 39.145
   },
@@ -1037,7 +1037,7 @@
     "last_alert_at": "2026-04-28T16:12:10.524129+00:00",
     "last_alert_score": 58.43,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 39.5098
   },
@@ -1048,7 +1048,7 @@
   },
   "OMCL::vcp": {
     "invalid_below": 31.27375,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 35.62
   },
@@ -1101,7 +1101,7 @@
     "last_alert_at": "2026-04-27T21:37:28.369771+00:00",
     "last_alert_score": 53.42,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "retest_hold",
     "trigger": 13.63
   },
@@ -1175,7 +1175,7 @@
   },
   "PGY::vcp": {
     "invalid_below": 11.229000000000001,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 13.45
   },
@@ -1186,7 +1186,7 @@
   },
   "PRCH::double_bottom": {
     "invalid_below": 7.5057,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "retest_hold",
     "trigger": 8.5
   },
@@ -1195,13 +1195,13 @@
     "last_alert_at": "2026-04-28T20:05:00.951750+00:00",
     "last_alert_score": 59.01,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 8.25
   },
   "PRCH::vcp": {
     "invalid_below": 7.289000000000001,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "retest_hold",
     "trigger": 8.5
   },
@@ -1249,7 +1249,7 @@
     "last_alert_at": "2026-04-28T16:11:06.747643+00:00",
     "last_alert_score": 49.32,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 16.7274
   },
@@ -1400,7 +1400,7 @@
     "last_alert_at": "2026-04-27T18:52:55.677015+00:00",
     "last_alert_score": 45.52,
     "last_alert_type": "failed",
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 51.45
   },
@@ -1421,7 +1421,7 @@
   },
   "TMC::vcp": {
     "invalid_below": 4.1764,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 4.88
   },
@@ -1472,7 +1472,7 @@
   },
   "TTWO::breakout_retest_hold": {
     "invalid_below": 209.14739999999998,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 211.0
   },
@@ -1525,7 +1525,7 @@
   },
   "V::breakout_retest_hold": {
     "invalid_below": 306.1476,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 308.99
   },
@@ -1671,7 +1671,7 @@
   },
   "ZS::breakout_retest_hold": {
     "invalid_below": 133.78859999999997,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "monitored_until": "2026-05-06T20:00:00+00:00",
     "state": "setup",
     "trigger": 134.29
   },
