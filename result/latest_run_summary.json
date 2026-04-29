@@ -1,45 +1,44 @@
 {
-  "run_id": "20260429T174620Z-d9ef1d",
-  "asof": "2026-04-29T17:46:20.240304+00:00",
-  "n_signals": 173,
+  "run_id": "20260429T194403Z-2604d4",
+  "asof": "2026-04-29T19:44:03.457071+00:00",
+  "n_signals": 206,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 56,
-    "vcp": 60,
-    "inverse_head_shoulders": 13,
-    "bull_flag": 22,
+    "double_bottom": 63,
+    "bull_flag": 35,
+    "vcp": 69,
+    "inverse_head_shoulders": 15,
+    "breakout_retest_hold": 8,
     "ascending_triangle": 7,
     "cup_with_handle": 5,
-    "breakout_retest_hold": 7,
     "base_on_base": 1,
-    "high_tight_pullback": 2
+    "high_tight_pullback": 3
   },
   "by_state": {
-    "breakout_confirmed": 15,
-    "setup": 5,
-    "forming": 58,
-    "absent": 80,
-    "invalidated": 10,
-    "candidate": 2,
-    "retest_hold": 2,
-    "breakout_failed": 1
+    "breakout_confirmed": 20,
+    "forming": 70,
+    "setup": 4,
+    "absent": 92,
+    "invalidated": 13,
+    "candidate": 4,
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 55,
-      "vcp": 60,
-      "inverse_head_shoulders": 13,
-      "bull_flag": 22,
+      "double_bottom": 63,
+      "bull_flag": 35,
+      "vcp": 69,
+      "inverse_head_shoulders": 15,
+      "breakout_retest_hold": 8,
       "ascending_triangle": 7,
       "cup_with_handle": 5,
-      "breakout_retest_hold": 7,
       "base_on_base": 1,
-      "high_tight_pullback": 2
+      "high_tight_pullback": 3
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "failed": 1,
-      "invalidated": 1
+      "invalidated": 3,
+      "breakout": 1
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -47,33 +46,33 @@
   "errors": [],
   "top_5": [
     {
+      "ticker": "PRCH",
+      "pattern": "high_tight_pullback",
+      "score": 67.16,
+      "state": "candidate"
+    },
+    {
       "ticker": "RBRK",
       "pattern": "inverse_head_shoulders",
-      "score": 60.23,
+      "score": 63.4,
       "state": "candidate"
     },
     {
       "ticker": "RBRK",
       "pattern": "cup_with_handle",
-      "score": 60.07,
+      "score": 63.18,
       "state": "candidate"
     },
     {
       "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 59.57,
-      "state": "forming"
+      "score": 62.68,
+      "state": "candidate"
     },
     {
       "ticker": "PRCH",
       "pattern": "inverse_head_shoulders",
-      "score": 57.92,
-      "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "OMCL",
-      "pattern": "double_bottom",
-      "score": 56.61,
+      "score": 59.28,
       "state": "breakout_confirmed"
     }
   ]
