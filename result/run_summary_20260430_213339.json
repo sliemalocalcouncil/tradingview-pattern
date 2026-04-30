@@ -1,0 +1,79 @@
+{
+  "run_id": "20260430T213339Z-aecf01",
+  "asof": "2026-04-30T21:33:39.627018+00:00",
+  "n_signals": 243,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 44,
+    "vcp": 80,
+    "double_bottom": 68,
+    "ascending_triangle": 7,
+    "breakout_retest_hold": 18,
+    "inverse_head_shoulders": 17,
+    "cup_with_handle": 5,
+    "high_tight_pullback": 3,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "forming": 83,
+    "breakout_confirmed": 19,
+    "absent": 108,
+    "retest_hold": 2,
+    "setup": 17,
+    "candidate": 5,
+    "invalidated": 9
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 44,
+      "vcp": 80,
+      "double_bottom": 68,
+      "ascending_triangle": 7,
+      "breakout_retest_hold": 17,
+      "inverse_head_shoulders": 17,
+      "cup_with_handle": 5,
+      "high_tight_pullback": 3,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "retest": 1,
+      "invalidated": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "PRCH",
+      "pattern": "inverse_head_shoulders",
+      "score": 62.89,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "ATLX",
+      "pattern": "high_tight_pullback",
+      "score": 61.68,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "high_tight_pullback",
+      "score": 61.65,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PRCH",
+      "pattern": "bull_flag",
+      "score": 61.45,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PCTY",
+      "pattern": "breakout_retest_hold",
+      "score": 61.24,
+      "state": "setup"
+    }
+  ]
+}
