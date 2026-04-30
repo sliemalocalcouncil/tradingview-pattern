@@ -1,44 +1,42 @@
 {
-  "run_id": "20260430T154855Z-7ab918",
-  "asof": "2026-04-30T15:48:55.263163+00:00",
-  "n_signals": 145,
+  "run_id": "20260430T172606Z-9d53ca",
+  "asof": "2026-04-30T17:26:06.734975+00:00",
+  "n_signals": 167,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 44,
-    "bull_flag": 24,
-    "vcp": 48,
-    "breakout_retest_hold": 7,
+    "double_bottom": 50,
+    "bull_flag": 28,
+    "vcp": 58,
+    "breakout_retest_hold": 8,
     "inverse_head_shoulders": 12,
-    "ascending_triangle": 5,
-    "cup_with_handle": 3,
+    "cup_with_handle": 4,
     "base_on_base": 1,
-    "high_tight_pullback": 1
+    "high_tight_pullback": 1,
+    "ascending_triangle": 5
   },
   "by_state": {
-    "breakout_confirmed": 12,
-    "forming": 56,
-    "absent": 62,
-    "setup": 3,
-    "invalidated": 7,
-    "retest_hold": 3,
-    "breakout_failed": 2
+    "breakout_confirmed": 11,
+    "forming": 59,
+    "invalidated": 9,
+    "absent": 77,
+    "setup": 7,
+    "retest_hold": 4
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 44,
-      "bull_flag": 24,
-      "vcp": 48,
-      "breakout_retest_hold": 6,
+      "double_bottom": 50,
+      "bull_flag": 28,
+      "vcp": 58,
+      "breakout_retest_hold": 8,
       "inverse_head_shoulders": 12,
-      "ascending_triangle": 5,
-      "cup_with_handle": 3,
+      "cup_with_handle": 4,
       "base_on_base": 1,
-      "high_tight_pullback": 1
+      "high_tight_pullback": 1,
+      "ascending_triangle": 5
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "breakout": 2,
-      "invalidated": 2
+      "retest": 2
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -48,32 +46,32 @@
     {
       "ticker": "TTWO",
       "pattern": "breakout_retest_hold",
-      "score": 60.23,
-      "state": "breakout_confirmed"
+      "score": 59.21,
+      "state": "retest_hold"
     },
     {
-      "ticker": "RBRK",
+      "ticker": "PCTY",
+      "pattern": "breakout_retest_hold",
+      "score": 59.11,
+      "state": "setup"
+    },
+    {
+      "ticker": "PRCH",
       "pattern": "inverse_head_shoulders",
-      "score": 58.53,
-      "state": "forming"
+      "score": 56.58,
+      "state": "breakout_confirmed"
     },
     {
       "ticker": "QBTS",
       "pattern": "double_bottom",
-      "score": 58.14,
+      "score": 55.7,
       "state": "breakout_confirmed"
     },
     {
-      "ticker": "RBRK",
-      "pattern": "cup_with_handle",
-      "score": 57.99,
-      "state": "forming"
-    },
-    {
-      "ticker": "RBRK",
+      "ticker": "XEL",
       "pattern": "double_bottom",
-      "score": 57.35,
-      "state": "forming"
+      "score": 55.0,
+      "state": "setup"
     }
   ]
 }
