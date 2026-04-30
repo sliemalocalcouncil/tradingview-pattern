@@ -1,0 +1,79 @@
+{
+  "run_id": "20260430T185356Z-08938c",
+  "asof": "2026-04-30T18:53:56.980098+00:00",
+  "n_signals": 196,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 35,
+    "vcp": 65,
+    "double_bottom": 55,
+    "ascending_triangle": 6,
+    "inverse_head_shoulders": 15,
+    "breakout_retest_hold": 13,
+    "cup_with_handle": 4,
+    "high_tight_pullback": 2,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "forming": 75,
+    "breakout_confirmed": 11,
+    "absent": 84,
+    "setup": 20,
+    "candidate": 1,
+    "retest_hold": 1,
+    "invalidated": 4
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 35,
+      "vcp": 65,
+      "double_bottom": 55,
+      "ascending_triangle": 6,
+      "inverse_head_shoulders": 15,
+      "breakout_retest_hold": 13,
+      "cup_with_handle": 4,
+      "high_tight_pullback": 2,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "breakout": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MMYT",
+      "pattern": "breakout_retest_hold",
+      "score": 63.06,
+      "state": "setup"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "high_tight_pullback",
+      "score": 61.09,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PCTY",
+      "pattern": "breakout_retest_hold",
+      "score": 58.3,
+      "state": "setup"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "inverse_head_shoulders",
+      "score": 57.82,
+      "state": "forming"
+    },
+    {
+      "ticker": "PRCH",
+      "pattern": "inverse_head_shoulders",
+      "score": 57.5,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
