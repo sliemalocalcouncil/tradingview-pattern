@@ -1,0 +1,81 @@
+{
+  "run_id": "20260501T180237Z-ad0a75",
+  "asof": "2026-05-01T18:02:37.788669+00:00",
+  "n_signals": 191,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 15,
+    "vcp": 64,
+    "double_bottom": 59,
+    "ascending_triangle": 11,
+    "inverse_head_shoulders": 9,
+    "breakout_retest_hold": 27,
+    "cup_with_handle": 4,
+    "high_tight_pullback": 1,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "forming": 63,
+    "breakout_confirmed": 20,
+    "absent": 58,
+    "candidate": 3,
+    "setup": 36,
+    "invalidated": 3,
+    "breakout_failed": 2,
+    "retest_hold": 6
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 15,
+      "vcp": 64,
+      "double_bottom": 59,
+      "ascending_triangle": 11,
+      "inverse_head_shoulders": 9,
+      "breakout_retest_hold": 27,
+      "cup_with_handle": 4,
+      "high_tight_pullback": 1,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "failed": 2,
+      "retest": 2,
+      "breakout": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "WEAV",
+      "pattern": "double_bottom",
+      "score": 61.61,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 61.35,
+      "state": "candidate"
+    },
+    {
+      "ticker": "HQY",
+      "pattern": "breakout_retest_hold",
+      "score": 61.03,
+      "state": "setup"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "breakout_retest_hold",
+      "score": 60.92,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "double_bottom",
+      "score": 60.74,
+      "state": "candidate"
+    }
+  ]
+}
