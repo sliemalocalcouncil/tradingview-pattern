@@ -1,0 +1,80 @@
+{
+  "run_id": "20260501T163303Z-46a7b3",
+  "asof": "2026-05-01T16:33:03.881613+00:00",
+  "n_signals": 148,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 14,
+    "vcp": 58,
+    "double_bottom": 51,
+    "ascending_triangle": 7,
+    "inverse_head_shoulders": 8,
+    "breakout_retest_hold": 5,
+    "cup_with_handle": 3,
+    "high_tight_pullback": 1,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "forming": 53,
+    "breakout_confirmed": 19,
+    "absent": 51,
+    "candidate": 3,
+    "retest_hold": 4,
+    "setup": 13,
+    "invalidated": 4,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 14,
+      "vcp": 58,
+      "double_bottom": 51,
+      "ascending_triangle": 7,
+      "inverse_head_shoulders": 8,
+      "breakout_retest_hold": 5,
+      "cup_with_handle": 3,
+      "high_tight_pullback": 1,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "breakout": 2,
+      "retest": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MGNI",
+      "pattern": "inverse_head_shoulders",
+      "score": 64.4,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "WEAV",
+      "pattern": "double_bottom",
+      "score": 61.73,
+      "state": "setup"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 60.77,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "breakout_retest_hold",
+      "score": 60.41,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "double_bottom",
+      "score": 60.13,
+      "state": "candidate"
+    }
+  ]
+}
