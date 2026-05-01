@@ -1,0 +1,81 @@
+{
+  "run_id": "20260501T205832Z-6b4abd",
+  "asof": "2026-05-01T20:58:32.909446+00:00",
+  "n_signals": 262,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 37,
+    "vcp": 79,
+    "double_bottom": 75,
+    "ascending_triangle": 12,
+    "inverse_head_shoulders": 13,
+    "breakout_retest_hold": 33,
+    "cup_with_handle": 5,
+    "high_tight_pullback": 7,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "forming": 92,
+    "breakout_confirmed": 38,
+    "absent": 83,
+    "candidate": 7,
+    "setup": 25,
+    "retest_hold": 10,
+    "invalidated": 6,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 37,
+      "vcp": 79,
+      "double_bottom": 75,
+      "ascending_triangle": 12,
+      "inverse_head_shoulders": 13,
+      "breakout_retest_hold": 33,
+      "cup_with_handle": 5,
+      "high_tight_pullback": 7,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "failed": 1,
+      "breakout": 6,
+      "retest": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MGNI",
+      "pattern": "breakout_retest_hold",
+      "score": 67.53,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "VYX",
+      "pattern": "breakout_retest_hold",
+      "score": 65.17,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "breakout_retest_hold",
+      "score": 64.72,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "NIC",
+      "pattern": "breakout_retest_hold",
+      "score": 63.65,
+      "state": "candidate"
+    },
+    {
+      "ticker": "STEP",
+      "pattern": "breakout_retest_hold",
+      "score": 63.59,
+      "state": "candidate"
+    }
+  ]
+}
