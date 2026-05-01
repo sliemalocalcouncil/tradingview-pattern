@@ -1,46 +1,46 @@
 {
-  "run_id": "20260501T180237Z-ad0a75",
-  "asof": "2026-05-01T18:02:37.788669+00:00",
-  "n_signals": 191,
+  "run_id": "20260501T194822Z-36a92a",
+  "asof": "2026-05-01T19:48:22.372654+00:00",
+  "n_signals": 233,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "bull_flag": 15,
-    "vcp": 64,
-    "double_bottom": 59,
-    "ascending_triangle": 11,
-    "inverse_head_shoulders": 9,
-    "breakout_retest_hold": 27,
+    "bull_flag": 33,
+    "vcp": 70,
+    "double_bottom": 67,
+    "ascending_triangle": 12,
+    "inverse_head_shoulders": 10,
+    "breakout_retest_hold": 30,
     "cup_with_handle": 4,
-    "high_tight_pullback": 1,
+    "high_tight_pullback": 6,
     "base_on_base": 1
   },
   "by_state": {
-    "forming": 63,
-    "breakout_confirmed": 20,
-    "absent": 58,
-    "candidate": 3,
-    "setup": 36,
-    "invalidated": 3,
-    "breakout_failed": 2,
-    "retest_hold": 6
+    "forming": 85,
+    "breakout_confirmed": 32,
+    "absent": 69,
+    "candidate": 6,
+    "setup": 28,
+    "retest_hold": 7,
+    "invalidated": 5,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "bull_flag": 15,
-      "vcp": 64,
-      "double_bottom": 59,
-      "ascending_triangle": 11,
-      "inverse_head_shoulders": 9,
-      "breakout_retest_hold": 27,
+      "bull_flag": 33,
+      "vcp": 70,
+      "double_bottom": 67,
+      "ascending_triangle": 12,
+      "inverse_head_shoulders": 10,
+      "breakout_retest_hold": 30,
       "cup_with_handle": 4,
-      "high_tight_pullback": 1,
+      "high_tight_pullback": 6,
       "base_on_base": 1
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "failed": 2,
-      "retest": 2,
-      "breakout": 1
+      "retest": 1,
+      "failed": 1,
+      "breakout": 4
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -48,34 +48,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "WEAV",
-      "pattern": "double_bottom",
-      "score": 61.61,
-      "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "RBRK",
-      "pattern": "double_bottom",
-      "score": 61.35,
-      "state": "candidate"
-    },
-    {
-      "ticker": "HQY",
+      "ticker": "MGNI",
       "pattern": "breakout_retest_hold",
-      "score": 61.03,
+      "score": 68.98,
       "state": "setup"
     },
     {
       "ticker": "FTAI",
       "pattern": "breakout_retest_hold",
-      "score": 60.92,
+      "score": 64.18,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "WEAV",
+      "pattern": "double_bottom",
+      "score": 64.12,
       "state": "breakout_confirmed"
     },
     {
-      "ticker": "APP",
-      "pattern": "double_bottom",
-      "score": 60.74,
-      "state": "candidate"
+      "ticker": "STEP",
+      "pattern": "breakout_retest_hold",
+      "score": 63.85,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "inverse_head_shoulders",
+      "score": 63.73,
+      "state": "retest_hold"
     }
   ]
 }
