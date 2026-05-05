@@ -1,0 +1,82 @@
+{
+  "run_id": "20260505T194150Z-7f61b3",
+  "asof": "2026-05-05T19:41:50.414551+00:00",
+  "n_signals": 247,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 60,
+    "bull_flag": 36,
+    "vcp": 67,
+    "cup_with_handle": 6,
+    "ascending_triangle": 25,
+    "breakout_retest_hold": 31,
+    "high_tight_pullback": 14,
+    "inverse_head_shoulders": 7,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "absent": 96,
+    "setup": 35,
+    "forming": 80,
+    "candidate": 7,
+    "breakout_confirmed": 15,
+    "retest_hold": 6,
+    "invalidated": 7,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 60,
+      "bull_flag": 36,
+      "vcp": 67,
+      "cup_with_handle": 6,
+      "ascending_triangle": 25,
+      "breakout_retest_hold": 31,
+      "high_tight_pullback": 14,
+      "inverse_head_shoulders": 7,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "breakout": 4,
+      "retest": 2,
+      "invalidated": 1,
+      "failed": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "STEP",
+      "pattern": "breakout_retest_hold",
+      "score": 69.5,
+      "state": "setup"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "breakout_retest_hold",
+      "score": 69.0,
+      "state": "setup"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "breakout_retest_hold",
+      "score": 66.5,
+      "state": "setup"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "high_tight_pullback",
+      "score": 66.05,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "ascending_triangle",
+      "score": 65.71,
+      "state": "candidate"
+    }
+  ]
+}
