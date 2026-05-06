@@ -1,0 +1,78 @@
+{
+  "run_id": "20260506T214602Z-d80bda",
+  "asof": "2026-05-06T21:46:02.498899+00:00",
+  "n_signals": 285,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 76,
+    "bull_flag": 43,
+    "vcp": 83,
+    "cup_with_handle": 7,
+    "ascending_triangle": 25,
+    "breakout_retest_hold": 31,
+    "inverse_head_shoulders": 8,
+    "high_tight_pullback": 11,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "absent": 114,
+    "forming": 74,
+    "candidate": 13,
+    "breakout_confirmed": 38,
+    "retest_hold": 17,
+    "setup": 20,
+    "invalidated": 9
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 76,
+      "bull_flag": 43,
+      "vcp": 83,
+      "cup_with_handle": 7,
+      "ascending_triangle": 25,
+      "breakout_retest_hold": 31,
+      "inverse_head_shoulders": 8,
+      "high_tight_pullback": 11,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "retest": 4
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "BETA",
+      "pattern": "high_tight_pullback",
+      "score": 68.93,
+      "state": "candidate"
+    },
+    {
+      "ticker": "OMCL",
+      "pattern": "breakout_retest_hold",
+      "score": 67.77,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "double_bottom",
+      "score": 66.89,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "high_tight_pullback",
+      "score": 65.99,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RDVT",
+      "pattern": "double_bottom",
+      "score": 65.97,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
