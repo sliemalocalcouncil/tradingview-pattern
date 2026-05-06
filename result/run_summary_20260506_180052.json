@@ -1,0 +1,80 @@
+{
+  "run_id": "20260506T180052Z-45f587",
+  "asof": "2026-05-06T18:00:52.587134+00:00",
+  "n_signals": 217,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 58,
+    "bull_flag": 31,
+    "vcp": 65,
+    "cup_with_handle": 6,
+    "ascending_triangle": 22,
+    "breakout_retest_hold": 22,
+    "inverse_head_shoulders": 7,
+    "high_tight_pullback": 6
+  },
+  "by_state": {
+    "absent": 92,
+    "forming": 63,
+    "breakout_confirmed": 19,
+    "retest_hold": 7,
+    "setup": 26,
+    "breakout_failed": 5,
+    "invalidated": 4,
+    "candidate": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 58,
+      "bull_flag": 31,
+      "vcp": 65,
+      "cup_with_handle": 6,
+      "ascending_triangle": 21,
+      "breakout_retest_hold": 21,
+      "inverse_head_shoulders": 7,
+      "high_tight_pullback": 6
+    },
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "failed": 3,
+      "retest": 1,
+      "invalidated": 1,
+      "breakout": 6
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "FROG",
+      "pattern": "high_tight_pullback",
+      "score": 63.54,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "double_bottom",
+      "score": 63.18,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "TMC",
+      "pattern": "double_bottom",
+      "score": 61.95,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "ascending_triangle",
+      "score": 61.51,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "GDYN",
+      "pattern": "double_bottom",
+      "score": 61.04,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
