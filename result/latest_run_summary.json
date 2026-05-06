@@ -1,46 +1,43 @@
 {
-  "run_id": "20260505T210728Z-cd34c3",
-  "asof": "2026-05-05T21:07:28.520879+00:00",
-  "n_signals": 273,
-  "n_alerts_eligible": 1,
+  "run_id": "20260506T160336Z-be257c",
+  "asof": "2026-05-06T16:03:36.879373+00:00",
+  "n_signals": 198,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 67,
-    "bull_flag": 41,
-    "vcp": 75,
+    "double_bottom": 52,
+    "bull_flag": 29,
+    "vcp": 58,
     "cup_with_handle": 6,
-    "ascending_triangle": 25,
-    "breakout_retest_hold": 34,
-    "high_tight_pullback": 16,
-    "inverse_head_shoulders": 8,
-    "base_on_base": 1
+    "ascending_triangle": 22,
+    "breakout_retest_hold": 20,
+    "inverse_head_shoulders": 7,
+    "high_tight_pullback": 4
   },
   "by_state": {
-    "absent": 110,
-    "setup": 37,
-    "forming": 87,
-    "candidate": 10,
-    "breakout_confirmed": 15,
-    "retest_hold": 7,
-    "invalidated": 6,
+    "absent": 94,
+    "forming": 46,
+    "breakout_confirmed": 20,
+    "retest_hold": 4,
+    "setup": 23,
+    "invalidated": 10,
     "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 67,
-      "bull_flag": 41,
-      "vcp": 75,
+      "double_bottom": 50,
+      "bull_flag": 29,
+      "vcp": 58,
       "cup_with_handle": 6,
-      "ascending_triangle": 25,
-      "breakout_retest_hold": 34,
-      "high_tight_pullback": 16,
-      "inverse_head_shoulders": 8,
-      "base_on_base": 1
+      "ascending_triangle": 22,
+      "breakout_retest_hold": 15,
+      "inverse_head_shoulders": 6,
+      "high_tight_pullback": 4
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 8,
     "alerts_by_type": {
-      "breakout": 1,
-      "setup": 1,
       "retest": 2,
+      "invalidated": 7,
+      "breakout": 3,
       "failed": 1
     },
     "tickers_processed": 153,
@@ -49,34 +46,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "STEP",
-      "pattern": "breakout_retest_hold",
-      "score": 70.05,
-      "state": "setup"
-    },
-    {
-      "ticker": "MGNI",
-      "pattern": "breakout_retest_hold",
-      "score": 66.92,
-      "state": "setup"
-    },
-    {
-      "ticker": "BETA",
-      "pattern": "breakout_retest_hold",
-      "score": 66.89,
-      "state": "setup"
-    },
-    {
-      "ticker": "OMCL",
-      "pattern": "breakout_retest_hold",
-      "score": 64.26,
-      "state": "candidate"
+      "ticker": "GDYN",
+      "pattern": "double_bottom",
+      "score": 63.45,
+      "state": "breakout_confirmed"
     },
     {
       "ticker": "QBTS",
-      "pattern": "high_tight_pullback",
-      "score": 64.04,
-      "state": "candidate"
+      "pattern": "double_bottom",
+      "score": 62.76,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "ascending_triangle",
+      "score": 61.79,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "vcp",
+      "score": 60.67,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "UEC",
+      "pattern": "double_bottom",
+      "score": 58.78,
+      "state": "breakout_confirmed"
     }
   ]
 }
