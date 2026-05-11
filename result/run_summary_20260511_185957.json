@@ -1,0 +1,76 @@
+{
+  "run_id": "20260511T185957Z-4dbb57",
+  "asof": "2026-05-11T18:59:57.252205+00:00",
+  "n_signals": 239,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 59,
+    "bull_flag": 40,
+    "vcp": 71,
+    "cup_with_handle": 7,
+    "breakout_retest_hold": 23,
+    "ascending_triangle": 22,
+    "high_tight_pullback": 9,
+    "inverse_head_shoulders": 8
+  },
+  "by_state": {
+    "forming": 73,
+    "absent": 93,
+    "setup": 28,
+    "breakout_confirmed": 28,
+    "invalidated": 15,
+    "candidate": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 59,
+      "bull_flag": 40,
+      "vcp": 71,
+      "cup_with_handle": 7,
+      "breakout_retest_hold": 23,
+      "ascending_triangle": 20,
+      "high_tight_pullback": 9,
+      "inverse_head_shoulders": 8
+    },
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "invalidated": 2,
+      "breakout": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "CTGO",
+      "pattern": "breakout_retest_hold",
+      "score": 64.32,
+      "state": "setup"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "bull_flag",
+      "score": 62.05,
+      "state": "candidate"
+    },
+    {
+      "ticker": "HQY",
+      "pattern": "breakout_retest_hold",
+      "score": 61.32,
+      "state": "setup"
+    },
+    {
+      "ticker": "PGY",
+      "pattern": "breakout_retest_hold",
+      "score": 61.31,
+      "state": "setup"
+    },
+    {
+      "ticker": "IE",
+      "pattern": "high_tight_pullback",
+      "score": 60.01,
+      "state": "candidate"
+    }
+  ]
+}
