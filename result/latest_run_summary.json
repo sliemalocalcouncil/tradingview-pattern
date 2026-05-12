@@ -1,45 +1,46 @@
 {
-  "run_id": "20260512T162401Z-5cdc39",
-  "asof": "2026-05-12T16:24:01.840540+00:00",
-  "n_signals": 187,
+  "run_id": "20260512T182252Z-90afd1",
+  "asof": "2026-05-12T18:22:52.337447+00:00",
+  "n_signals": 230,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 49,
-    "vcp": 53,
+    "double_bottom": 57,
+    "vcp": 67,
     "cup_with_handle": 7,
-    "bull_flag": 33,
-    "breakout_retest_hold": 18,
-    "ascending_triangle": 16,
-    "high_tight_pullback": 3,
+    "ascending_triangle": 20,
+    "bull_flag": 46,
+    "breakout_retest_hold": 20,
+    "high_tight_pullback": 5,
     "inverse_head_shoulders": 7,
     "base_on_base": 1
   },
   "by_state": {
-    "forming": 46,
-    "setup": 15,
-    "absent": 77,
-    "breakout_confirmed": 19,
-    "invalidated": 24,
-    "breakout_failed": 4,
-    "candidate": 2
+    "forming": 59,
+    "setup": 18,
+    "absent": 111,
+    "invalidated": 20,
+    "breakout_confirmed": 18,
+    "breakout_failed": 1,
+    "retest_hold": 2,
+    "candidate": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 49,
-      "vcp": 53,
+      "double_bottom": 57,
+      "vcp": 67,
       "cup_with_handle": 7,
-      "bull_flag": 33,
-      "breakout_retest_hold": 14,
-      "ascending_triangle": 16,
-      "high_tight_pullback": 3,
-      "inverse_head_shoulders": 6,
+      "ascending_triangle": 20,
+      "bull_flag": 46,
+      "breakout_retest_hold": 18,
+      "high_tight_pullback": 5,
+      "inverse_head_shoulders": 7,
       "base_on_base": 1
     },
-    "active_monitor_events": 5,
+    "active_monitor_events": 2,
     "alerts_by_type": {
-      "failed": 2,
-      "invalidated": 5,
-      "breakout": 1
+      "invalidated": 4,
+      "breakout": 1,
+      "retest": 1
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -47,33 +48,33 @@
   "errors": [],
   "top_5": [
     {
+      "ticker": "STEP",
+      "pattern": "breakout_retest_hold",
+      "score": 65.22,
+      "state": "setup"
+    },
+    {
       "ticker": "OMCL",
       "pattern": "double_bottom",
-      "score": 63.69,
+      "score": 61.85,
       "state": "candidate"
     },
     {
       "ticker": "OMCL",
       "pattern": "ascending_triangle",
-      "score": 61.56,
-      "state": "candidate"
+      "score": 59.93,
+      "state": "absent"
     },
     {
-      "ticker": "INOD",
-      "pattern": "breakout_retest_hold",
-      "score": 60.75,
-      "state": "breakout_failed"
+      "ticker": "FROG",
+      "pattern": "bull_flag",
+      "score": 59.73,
+      "state": "forming"
     },
     {
       "ticker": "UEC",
       "pattern": "inverse_head_shoulders",
-      "score": 58.46,
-      "state": "breakout_failed"
-    },
-    {
-      "ticker": "RBRK",
-      "pattern": "double_bottom",
-      "score": 58.31,
+      "score": 58.85,
       "state": "forming"
     }
   ]
