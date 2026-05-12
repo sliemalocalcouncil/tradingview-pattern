@@ -1,0 +1,78 @@
+{
+  "run_id": "20260512T215037Z-f70b7e",
+  "asof": "2026-05-12T21:50:37.726856+00:00",
+  "n_signals": 274,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 68,
+    "vcp": 83,
+    "cup_with_handle": 7,
+    "ascending_triangle": 23,
+    "bull_flag": 54,
+    "breakout_retest_hold": 23,
+    "high_tight_pullback": 6,
+    "inverse_head_shoulders": 8,
+    "base_on_base": 2
+  },
+  "by_state": {
+    "forming": 60,
+    "setup": 21,
+    "absent": 130,
+    "retest_hold": 7,
+    "invalidated": 28,
+    "candidate": 4,
+    "breakout_confirmed": 24
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 68,
+      "vcp": 83,
+      "cup_with_handle": 7,
+      "ascending_triangle": 23,
+      "bull_flag": 54,
+      "breakout_retest_hold": 23,
+      "high_tight_pullback": 6,
+      "inverse_head_shoulders": 8,
+      "base_on_base": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "retest": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "PRCH",
+      "pattern": "breakout_retest_hold",
+      "score": 65.75,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "STEP",
+      "pattern": "breakout_retest_hold",
+      "score": 63.0,
+      "state": "setup"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "bull_flag",
+      "score": 62.68,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PANL",
+      "pattern": "double_bottom",
+      "score": 62.13,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "IE",
+      "pattern": "double_bottom",
+      "score": 62.08,
+      "state": "retest_hold"
+    }
+  ]
+}
