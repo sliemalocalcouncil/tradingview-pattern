@@ -1,0 +1,81 @@
+{
+  "run_id": "20260513T162356Z-4df550",
+  "asof": "2026-05-13T16:23:56.930309+00:00",
+  "n_signals": 185,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 50,
+    "vcp": 56,
+    "cup_with_handle": 4,
+    "ascending_triangle": 15,
+    "bull_flag": 36,
+    "breakout_retest_hold": 16,
+    "high_tight_pullback": 3,
+    "inverse_head_shoulders": 4,
+    "base_on_base": 1
+  },
+  "by_state": {
+    "forming": 33,
+    "absent": 84,
+    "invalidated": 39,
+    "breakout_confirmed": 19,
+    "setup": 4,
+    "retest_hold": 3,
+    "breakout_failed": 2,
+    "candidate": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 50,
+      "vcp": 56,
+      "cup_with_handle": 4,
+      "ascending_triangle": 14,
+      "bull_flag": 36,
+      "high_tight_pullback": 3,
+      "inverse_head_shoulders": 4,
+      "breakout_retest_hold": 10,
+      "base_on_base": 1
+    },
+    "active_monitor_events": 7,
+    "alerts_by_type": {
+      "breakout": 2,
+      "failed": 1,
+      "invalidated": 6
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ZS",
+      "pattern": "breakout_retest_hold",
+      "score": 61.55,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "IE",
+      "pattern": "double_bottom",
+      "score": 61.05,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VNET",
+      "pattern": "double_bottom",
+      "score": 60.3,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "breakout_retest_hold",
+      "score": 59.39,
+      "state": "setup"
+    },
+    {
+      "ticker": "SNOW",
+      "pattern": "double_bottom",
+      "score": 58.33,
+      "state": "forming"
+    }
+  ]
+}
