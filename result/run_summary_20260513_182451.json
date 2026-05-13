@@ -1,0 +1,79 @@
+{
+  "run_id": "20260513T182451Z-8e6266",
+  "asof": "2026-05-13T18:24:51.474482+00:00",
+  "n_signals": 215,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 55,
+    "vcp": 70,
+    "cup_with_handle": 5,
+    "ascending_triangle": 16,
+    "bull_flag": 46,
+    "high_tight_pullback": 4,
+    "inverse_head_shoulders": 4,
+    "breakout_retest_hold": 12,
+    "base_on_base": 3
+  },
+  "by_state": {
+    "forming": 47,
+    "absent": 105,
+    "invalidated": 27,
+    "retest_hold": 4,
+    "breakout_confirmed": 21,
+    "setup": 6,
+    "candidate": 3,
+    "breakout_failed": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 55,
+      "vcp": 70,
+      "cup_with_handle": 5,
+      "ascending_triangle": 16,
+      "bull_flag": 46,
+      "high_tight_pullback": 4,
+      "inverse_head_shoulders": 4,
+      "breakout_retest_hold": 12,
+      "base_on_base": 3
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 3
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "NUAI",
+      "pattern": "double_bottom",
+      "score": 60.31,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INR",
+      "pattern": "base_on_base",
+      "score": 60.29,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ZS",
+      "pattern": "double_bottom",
+      "score": 60.09,
+      "state": "candidate"
+    },
+    {
+      "ticker": "OMCL",
+      "pattern": "double_bottom",
+      "score": 59.38,
+      "state": "forming"
+    },
+    {
+      "ticker": "UEC",
+      "pattern": "double_bottom",
+      "score": 59.24,
+      "state": "forming"
+    }
+  ]
+}
