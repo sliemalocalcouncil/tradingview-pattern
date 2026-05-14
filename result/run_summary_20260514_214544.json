@@ -1,0 +1,76 @@
+{
+  "run_id": "20260514T214544Z-62e8c4",
+  "asof": "2026-05-14T21:45:44.499215+00:00",
+  "n_signals": 219,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 63,
+    "vcp": 81,
+    "ascending_triangle": 11,
+    "cup_with_handle": 4,
+    "bull_flag": 44,
+    "breakout_retest_hold": 11,
+    "inverse_head_shoulders": 1,
+    "base_on_base": 2,
+    "high_tight_pullback": 2
+  },
+  "by_state": {
+    "forming": 57,
+    "absent": 103,
+    "breakout_confirmed": 19,
+    "invalidated": 22,
+    "setup": 9,
+    "retest_hold": 3,
+    "candidate": 6
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 63,
+      "vcp": 81,
+      "ascending_triangle": 11,
+      "cup_with_handle": 4,
+      "bull_flag": 44,
+      "breakout_retest_hold": 11,
+      "inverse_head_shoulders": 1,
+      "base_on_base": 2,
+      "high_tight_pullback": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "CTGO",
+      "pattern": "double_bottom",
+      "score": 65.95,
+      "state": "candidate"
+    },
+    {
+      "ticker": "HNRG",
+      "pattern": "double_bottom",
+      "score": 64.53,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ZS",
+      "pattern": "breakout_retest_hold",
+      "score": 64.2,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "OMCL",
+      "pattern": "double_bottom",
+      "score": 63.21,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INOD",
+      "pattern": "double_bottom",
+      "score": 62.65,
+      "state": "candidate"
+    }
+  ]
+}
