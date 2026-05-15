@@ -1,45 +1,45 @@
 {
-  "run_id": "20260515T200321Z-598c93",
-  "asof": "2026-05-15T20:03:21.018966+00:00",
-  "n_signals": 218,
+  "run_id": "20260515T213502Z-fc95c6",
+  "asof": "2026-05-15T21:35:02.323515+00:00",
+  "n_signals": 224,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 66,
-    "vcp": 79,
+    "double_bottom": 68,
+    "vcp": 81,
     "ascending_triangle": 11,
     "cup_with_handle": 4,
     "breakout_retest_hold": 9,
-    "bull_flag": 43,
+    "bull_flag": 44,
     "inverse_head_shoulders": 4,
-    "base_on_base": 2
+    "base_on_base": 2,
+    "high_tight_pullback": 1
   },
   "by_state": {
-    "forming": 52,
-    "absent": 99,
-    "retest_hold": 3,
+    "forming": 49,
+    "absent": 106,
+    "retest_hold": 4,
     "setup": 7,
-    "invalidated": 30,
-    "breakout_confirmed": 21,
-    "candidate": 5,
-    "breakout_failed": 1
+    "invalidated": 32,
+    "breakout_confirmed": 19,
+    "breakout_failed": 1,
+    "candidate": 6
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 66,
-      "vcp": 79,
+      "double_bottom": 68,
+      "vcp": 81,
       "ascending_triangle": 11,
       "cup_with_handle": 4,
       "breakout_retest_hold": 7,
-      "bull_flag": 43,
+      "bull_flag": 44,
       "inverse_head_shoulders": 4,
-      "base_on_base": 2
+      "base_on_base": 2,
+      "high_tight_pullback": 1
     },
     "active_monitor_events": 2,
     "alerts_by_type": {
-      "breakout": 2,
-      "retest": 1,
-      "invalidated": 2,
-      "failed": 1
+      "failed": 1,
+      "invalidated": 2
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -49,31 +49,31 @@
     {
       "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 67.53,
-      "state": "breakout_confirmed"
+      "score": 68.16,
+      "state": "breakout_failed"
     },
     {
       "ticker": "RDVT",
       "pattern": "double_bottom",
-      "score": 67.4,
-      "state": "breakout_failed"
+      "score": 67.99,
+      "state": "candidate"
     },
     {
       "ticker": "INOD",
       "pattern": "double_bottom",
-      "score": 63.86,
+      "score": 64.03,
       "state": "candidate"
     },
     {
       "ticker": "RDVT",
       "pattern": "bull_flag",
-      "score": 62.31,
+      "score": 62.97,
       "state": "candidate"
     },
     {
       "ticker": "OMCL",
       "pattern": "double_bottom",
-      "score": 61.41,
+      "score": 62.83,
       "state": "candidate"
     }
   ]
