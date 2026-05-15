@@ -1,41 +1,45 @@
 {
-  "run_id": "20260515T180739Z-ad8508",
-  "asof": "2026-05-15T18:07:39.795834+00:00",
-  "n_signals": 166,
+  "run_id": "20260515T200321Z-598c93",
+  "asof": "2026-05-15T20:03:21.018966+00:00",
+  "n_signals": 218,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 50,
-    "vcp": 61,
-    "ascending_triangle": 10,
-    "cup_with_handle": 3,
-    "breakout_retest_hold": 7,
-    "bull_flag": 29,
+    "double_bottom": 66,
+    "vcp": 79,
+    "ascending_triangle": 11,
+    "cup_with_handle": 4,
+    "breakout_retest_hold": 9,
+    "bull_flag": 43,
     "inverse_head_shoulders": 4,
     "base_on_base": 2
   },
   "by_state": {
-    "forming": 42,
-    "absent": 67,
-    "breakout_confirmed": 15,
-    "setup": 14,
-    "invalidated": 27,
-    "candidate": 1
+    "forming": 52,
+    "absent": 99,
+    "retest_hold": 3,
+    "setup": 7,
+    "invalidated": 30,
+    "breakout_confirmed": 21,
+    "candidate": 5,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 50,
-      "vcp": 61,
-      "ascending_triangle": 10,
-      "cup_with_handle": 3,
-      "breakout_retest_hold": 5,
-      "bull_flag": 29,
+      "double_bottom": 66,
+      "vcp": 79,
+      "ascending_triangle": 11,
+      "cup_with_handle": 4,
+      "breakout_retest_hold": 7,
+      "bull_flag": 43,
       "inverse_head_shoulders": 4,
       "base_on_base": 2
     },
     "active_monitor_events": 2,
     "alerts_by_type": {
-      "invalidated": 6,
-      "breakout": 1
+      "breakout": 2,
+      "retest": 1,
+      "invalidated": 2,
+      "failed": 1
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -45,32 +49,32 @@
     {
       "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 62.1,
-      "state": "setup"
+      "score": 67.53,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "RDVT",
+      "pattern": "double_bottom",
+      "score": 67.4,
+      "state": "breakout_failed"
     },
     {
       "ticker": "INOD",
       "pattern": "double_bottom",
-      "score": 61.94,
+      "score": 63.86,
       "state": "candidate"
     },
     {
-      "ticker": "APPF",
-      "pattern": "breakout_retest_hold",
-      "score": 57.79,
-      "state": "setup"
+      "ticker": "RDVT",
+      "pattern": "bull_flag",
+      "score": 62.31,
+      "state": "candidate"
     },
     {
-      "ticker": "NTSK",
+      "ticker": "OMCL",
       "pattern": "double_bottom",
-      "score": 57.42,
-      "state": "forming"
-    },
-    {
-      "ticker": "APP",
-      "pattern": "double_bottom",
-      "score": 56.3,
-      "state": "forming"
+      "score": 61.41,
+      "state": "candidate"
     }
   ]
 }
