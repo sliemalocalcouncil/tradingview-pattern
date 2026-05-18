@@ -133,11 +133,11 @@
   },
   "ALKT::breakout_retest_hold": {
     "invalid_below": 16.5825,
-    "last_alert_at": "2026-05-18T20:29:31.557646+00:00",
+    "last_alert_at": "2026-05-18T21:50:42.400709+00:00",
     "last_alert_score": 63.03,
-    "last_alert_type": "breakout",
+    "last_alert_type": "retest",
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 16.7666
   },
   "ALKT::bull_flag": {
@@ -510,11 +510,11 @@
   },
   "BILI::double_bottom": {
     "invalid_below": 18.74455,
-    "last_alert_at": "2026-05-18T20:28:19.279029+00:00",
-    "last_alert_score": 49.02,
-    "last_alert_type": "breakout",
+    "last_alert_at": "2026-05-18T21:49:36.675704+00:00",
+    "last_alert_score": 49.03,
+    "last_alert_type": "retest",
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 19.56
   },
   "BILI::vcp": {
@@ -689,11 +689,11 @@
   },
   "CLBT::double_bottom": {
     "invalid_below": 12.00715,
-    "last_alert_at": "2026-05-18T20:29:11.315695+00:00",
+    "last_alert_at": "2026-05-18T21:50:19.195153+00:00",
     "last_alert_score": 62.99,
-    "last_alert_type": "breakout",
+    "last_alert_type": "retest",
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 13.43
   },
   "CLBT::inverse_head_shoulders": {
@@ -899,7 +899,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 97.82
   },
   "EXE::bull_flag": {
@@ -1198,7 +1198,7 @@
   "GDYN::vcp": {
     "invalid_below": 5.954325,
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "absent",
     "trigger": 7.075
   },
   "GENI::double_bottom": {
@@ -1845,7 +1845,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 44.46
   },
   "MMYT::bull_flag": {
@@ -1855,11 +1855,11 @@
   },
   "MMYT::double_bottom": {
     "invalid_below": 41.8625,
-    "last_alert_at": "2026-05-18T20:28:50.450676+00:00",
+    "last_alert_at": "2026-05-18T21:50:05.691010+00:00",
     "last_alert_score": 50.74,
-    "last_alert_type": "breakout",
+    "last_alert_type": "retest",
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 44.755
   },
   "MMYT::vcp": {
@@ -3295,7 +3295,7 @@
   "WK::inverse_head_shoulders": {
     "invalid_below": 42.6899,
     "monitored_until": "2026-05-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 49.0
   },
   "WK::vcp": {

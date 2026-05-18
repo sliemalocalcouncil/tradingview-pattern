@@ -1,6 +1,6 @@
 {
-  "run_id": "20260518T202743Z-173e40",
-  "asof": "2026-05-18T20:27:43.326779+00:00",
+  "run_id": "20260518T214858Z-77cba1",
+  "asof": "2026-05-18T21:48:58.223717+00:00",
   "n_signals": 223,
   "n_alerts_eligible": 0,
   "by_pattern": {
@@ -16,13 +16,12 @@
   },
   "by_state": {
     "setup": 10,
-    "absent": 96,
+    "absent": 97,
     "forming": 63,
-    "breakout_confirmed": 33,
+    "breakout_confirmed": 26,
     "invalidated": 14,
-    "candidate": 5,
-    "breakout_failed": 1,
-    "retest_hold": 1
+    "retest_hold": 8,
+    "candidate": 5
   },
   "counters": {
     "detector_hits": {
@@ -38,8 +37,7 @@
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "breakout": 10,
-      "invalidated": 1
+      "retest": 4
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -62,18 +60,18 @@
       "ticker": "ALKT",
       "pattern": "breakout_retest_hold",
       "score": 63.03,
-      "state": "breakout_confirmed"
+      "state": "retest_hold"
     },
     {
       "ticker": "CLBT",
       "pattern": "double_bottom",
       "score": 62.99,
-      "state": "breakout_confirmed"
+      "state": "retest_hold"
     },
     {
       "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 62.47,
+      "score": 62.48,
       "state": "candidate"
     }
   ]
