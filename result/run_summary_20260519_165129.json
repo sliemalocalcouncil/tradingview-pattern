@@ -1,0 +1,82 @@
+{
+  "run_id": "20260519T165129Z-8ecf1b",
+  "asof": "2026-05-19T16:51:29.390830+00:00",
+  "n_signals": 159,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 54,
+    "vcp": 61,
+    "ascending_triangle": 8,
+    "cup_with_handle": 2,
+    "high_tight_pullback": 1,
+    "breakout_retest_hold": 6,
+    "bull_flag": 19,
+    "inverse_head_shoulders": 6,
+    "base_on_base": 2
+  },
+  "by_state": {
+    "forming": 42,
+    "absent": 58,
+    "setup": 16,
+    "invalidated": 18,
+    "breakout_confirmed": 19,
+    "candidate": 2,
+    "retest_hold": 1,
+    "breakout_failed": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 54,
+      "vcp": 61,
+      "ascending_triangle": 8,
+      "cup_with_handle": 2,
+      "high_tight_pullback": 1,
+      "bull_flag": 19,
+      "breakout_retest_hold": 3,
+      "inverse_head_shoulders": 6,
+      "base_on_base": 2
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "invalidated": 4,
+      "retest": 1,
+      "failed": 2,
+      "breakout": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 63.41,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AGYS",
+      "pattern": "double_bottom",
+      "score": 62.62,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 61.32,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "vcp",
+      "score": 57.93,
+      "state": "breakout_failed"
+    },
+    {
+      "ticker": "CLBT",
+      "pattern": "double_bottom",
+      "score": 57.53,
+      "state": "setup"
+    }
+  ]
+}
