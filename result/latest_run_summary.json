@@ -1,46 +1,47 @@
 {
-  "run_id": "20260519T210226Z-93bc42",
-  "asof": "2026-05-19T21:02:26.159542+00:00",
-  "n_signals": 241,
+  "run_id": "20260520T165608Z-3eaaa3",
+  "asof": "2026-05-20T16:56:08.671651+00:00",
+  "n_signals": 190,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 63,
-    "vcp": 76,
+    "double_bottom": 50,
+    "vcp": 61,
     "cup_with_handle": 3,
-    "breakout_retest_hold": 25,
-    "high_tight_pullback": 20,
-    "ascending_triangle": 9,
-    "bull_flag": 36,
-    "inverse_head_shoulders": 6,
+    "breakout_retest_hold": 18,
+    "bull_flag": 35,
+    "ascending_triangle": 8,
+    "high_tight_pullback": 8,
+    "inverse_head_shoulders": 4,
     "base_on_base": 3
   },
   "by_state": {
-    "forming": 66,
-    "absent": 93,
-    "retest_hold": 7,
-    "setup": 23,
-    "candidate": 9,
-    "breakout_confirmed": 25,
-    "invalidated": 17,
-    "breakout_failed": 1
+    "forming": 48,
+    "absent": 82,
+    "retest_hold": 3,
+    "invalidated": 8,
+    "setup": 22,
+    "breakout_confirmed": 19,
+    "breakout_failed": 6,
+    "candidate": 2
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 63,
-      "vcp": 76,
+      "double_bottom": 50,
+      "vcp": 61,
       "cup_with_handle": 3,
-      "breakout_retest_hold": 24,
-      "high_tight_pullback": 20,
-      "ascending_triangle": 9,
-      "bull_flag": 36,
-      "inverse_head_shoulders": 6,
+      "breakout_retest_hold": 16,
+      "bull_flag": 35,
+      "ascending_triangle": 7,
+      "high_tight_pullback": 8,
+      "inverse_head_shoulders": 3,
       "base_on_base": 3
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 4,
     "alerts_by_type": {
+      "invalidated": 1,
+      "failed": 3,
       "breakout": 2,
-      "retest": 2,
-      "invalidated": 1
+      "retest": 1
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -48,34 +49,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "PRCH",
+      "ticker": "INOD",
       "pattern": "double_bottom",
-      "score": 66.1,
+      "score": 62.04,
       "state": "candidate"
     },
     {
-      "ticker": "RDVT",
+      "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 65.95,
-      "state": "candidate"
+      "score": 61.66,
+      "state": "setup"
     },
     {
-      "ticker": "SAIL",
+      "ticker": "RBRK",
       "pattern": "high_tight_pullback",
-      "score": 64.29,
+      "score": 60.55,
       "state": "candidate"
     },
     {
-      "ticker": "RBRK",
+      "ticker": "NTSK",
       "pattern": "double_bottom",
-      "score": 63.9,
-      "state": "candidate"
+      "score": 59.66,
+      "state": "forming"
     },
     {
-      "ticker": "RBRK",
-      "pattern": "breakout_retest_hold",
-      "score": 63.73,
-      "state": "retest_hold"
+      "ticker": "ZS",
+      "pattern": "high_tight_pullback",
+      "score": 56.87,
+      "state": "forming"
     }
   ]
 }
