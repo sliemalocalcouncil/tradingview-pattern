@@ -1,0 +1,78 @@
+{
+  "run_id": "20260520T220024Z-d67323",
+  "asof": "2026-05-20T22:00:24.389726+00:00",
+  "n_signals": 268,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 72,
+    "vcp": 82,
+    "cup_with_handle": 4,
+    "breakout_retest_hold": 28,
+    "ascending_triangle": 16,
+    "bull_flag": 45,
+    "high_tight_pullback": 10,
+    "inverse_head_shoulders": 8,
+    "base_on_base": 3
+  },
+  "by_state": {
+    "absent": 120,
+    "retest_hold": 1,
+    "forming": 72,
+    "setup": 39,
+    "breakout_confirmed": 24,
+    "candidate": 5,
+    "invalidated": 7
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 72,
+      "vcp": 82,
+      "cup_with_handle": 4,
+      "breakout_retest_hold": 28,
+      "ascending_triangle": 16,
+      "bull_flag": 45,
+      "high_tight_pullback": 10,
+      "inverse_head_shoulders": 8,
+      "base_on_base": 3
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "breakout": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SNOW",
+      "pattern": "breakout_retest_hold",
+      "score": 68.32,
+      "state": "setup"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 66.55,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "breakout_retest_hold",
+      "score": 65.21,
+      "state": "setup"
+    },
+    {
+      "ticker": "GDYN",
+      "pattern": "double_bottom",
+      "score": 63.9,
+      "state": "setup"
+    },
+    {
+      "ticker": "INOD",
+      "pattern": "double_bottom",
+      "score": 63.75,
+      "state": "candidate"
+    }
+  ]
+}
