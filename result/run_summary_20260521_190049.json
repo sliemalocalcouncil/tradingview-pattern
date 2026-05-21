@@ -1,0 +1,77 @@
+{
+  "run_id": "20260521T190049Z-3ad8e3",
+  "asof": "2026-05-21T19:00:49.584551+00:00",
+  "n_signals": 209,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 57,
+    "vcp": 64,
+    "cup_with_handle": 4,
+    "breakout_retest_hold": 24,
+    "ascending_triangle": 15,
+    "bull_flag": 27,
+    "high_tight_pullback": 10,
+    "inverse_head_shoulders": 6,
+    "base_on_base": 2
+  },
+  "by_state": {
+    "forming": 63,
+    "absent": 90,
+    "setup": 27,
+    "invalidated": 5,
+    "breakout_confirmed": 18,
+    "candidate": 6
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 57,
+      "vcp": 64,
+      "cup_with_handle": 4,
+      "breakout_retest_hold": 24,
+      "ascending_triangle": 15,
+      "bull_flag": 27,
+      "high_tight_pullback": 10,
+      "inverse_head_shoulders": 6,
+      "base_on_base": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "INOD",
+      "pattern": "double_bottom",
+      "score": 66.37,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "inverse_head_shoulders",
+      "score": 63.35,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 63.18,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 62.56,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "high_tight_pullback",
+      "score": 62.4,
+      "state": "candidate"
+    }
+  ]
+}
