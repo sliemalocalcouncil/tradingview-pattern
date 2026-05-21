@@ -1,0 +1,78 @@
+{
+  "run_id": "20260521T211402Z-0aabc9",
+  "asof": "2026-05-21T21:14:02.231852+00:00",
+  "n_signals": 252,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 69,
+    "vcp": 78,
+    "cup_with_handle": 4,
+    "breakout_retest_hold": 27,
+    "ascending_triangle": 19,
+    "bull_flag": 32,
+    "high_tight_pullback": 11,
+    "inverse_head_shoulders": 9,
+    "base_on_base": 3
+  },
+  "by_state": {
+    "forming": 72,
+    "absent": 109,
+    "setup": 27,
+    "invalidated": 9,
+    "breakout_confirmed": 24,
+    "candidate": 11
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 69,
+      "vcp": 78,
+      "cup_with_handle": 4,
+      "breakout_retest_hold": 26,
+      "ascending_triangle": 19,
+      "bull_flag": 32,
+      "high_tight_pullback": 11,
+      "inverse_head_shoulders": 9,
+      "base_on_base": 3
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "breakout": 3,
+      "invalidated": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 65.2,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GDYN",
+      "pattern": "double_bottom",
+      "score": 63.81,
+      "state": "setup"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "vcp",
+      "score": 63.6,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INOD",
+      "pattern": "double_bottom",
+      "score": 63.55,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 62.94,
+      "state": "candidate"
+    }
+  ]
+}
