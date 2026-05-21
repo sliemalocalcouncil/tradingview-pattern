@@ -1,42 +1,41 @@
 {
-  "run_id": "20260520T220024Z-d67323",
-  "asof": "2026-05-20T22:00:24.389726+00:00",
-  "n_signals": 268,
+  "run_id": "20260521T164107Z-51d200",
+  "asof": "2026-05-21T16:41:07.079372+00:00",
+  "n_signals": 155,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 72,
-    "vcp": 82,
-    "cup_with_handle": 4,
-    "breakout_retest_hold": 28,
-    "ascending_triangle": 16,
-    "bull_flag": 45,
-    "high_tight_pullback": 10,
-    "inverse_head_shoulders": 8,
-    "base_on_base": 3
+    "double_bottom": 44,
+    "vcp": 52,
+    "cup_with_handle": 3,
+    "breakout_retest_hold": 15,
+    "ascending_triangle": 7,
+    "bull_flag": 26,
+    "high_tight_pullback": 6,
+    "inverse_head_shoulders": 2
   },
   "by_state": {
-    "absent": 120,
-    "retest_hold": 1,
-    "forming": 72,
-    "setup": 39,
-    "breakout_confirmed": 24,
-    "candidate": 5,
-    "invalidated": 7
+    "absent": 66,
+    "setup": 18,
+    "forming": 45,
+    "invalidated": 10,
+    "breakout_confirmed": 11,
+    "candidate": 3,
+    "retest_hold": 2
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 72,
-      "vcp": 82,
-      "cup_with_handle": 4,
-      "breakout_retest_hold": 28,
-      "ascending_triangle": 16,
-      "bull_flag": 45,
-      "high_tight_pullback": 10,
-      "inverse_head_shoulders": 8,
-      "base_on_base": 3
+      "double_bottom": 44,
+      "vcp": 52,
+      "cup_with_handle": 3,
+      "breakout_retest_hold": 15,
+      "ascending_triangle": 7,
+      "bull_flag": 26,
+      "high_tight_pullback": 6,
+      "inverse_head_shoulders": 2
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
+      "invalidated": 2,
       "breakout": 1
     },
     "tickers_processed": 153,
@@ -45,34 +44,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "SNOW",
-      "pattern": "breakout_retest_hold",
-      "score": 68.32,
-      "state": "setup"
+      "ticker": "QBTS",
+      "pattern": "inverse_head_shoulders",
+      "score": 63.0,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 62.24,
+      "state": "candidate"
     },
     {
       "ticker": "RBRK",
       "pattern": "double_bottom",
-      "score": 66.55,
+      "score": 62.05,
       "state": "candidate"
-    },
-    {
-      "ticker": "QBTS",
-      "pattern": "breakout_retest_hold",
-      "score": 65.21,
-      "state": "setup"
-    },
-    {
-      "ticker": "GDYN",
-      "pattern": "double_bottom",
-      "score": 63.9,
-      "state": "setup"
     },
     {
       "ticker": "INOD",
       "pattern": "double_bottom",
-      "score": 63.75,
+      "score": 61.8,
       "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "ascending_triangle",
+      "score": 59.88,
+      "state": "forming"
     }
   ]
 }
