@@ -745,7 +745,7 @@
   "CEPT::inverse_head_shoulders": {
     "invalid_below": 11.63285,
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 12.88
   },
   "CEPT::vcp": {
@@ -1013,11 +1013,11 @@
   },
   "EXLS::breakout_retest_hold": {
     "invalid_below": 28.749599999999997,
-    "last_alert_at": "2026-05-22T20:21:54.537156+00:00",
+    "last_alert_at": "2026-05-22T21:45:26.419878+00:00",
     "last_alert_score": 56.83,
-    "last_alert_type": "breakout",
+    "last_alert_type": "retest",
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 29.355
   },
   "EXLS::bull_flag": {
@@ -1176,11 +1176,11 @@
   },
   "FROG::ascending_triangle": {
     "invalid_below": 61.07985,
-    "last_alert_at": "2026-05-22T20:21:48.463728+00:00",
-    "last_alert_score": 61.54,
-    "last_alert_type": "breakout",
+    "last_alert_at": "2026-05-22T21:45:18.587594+00:00",
+    "last_alert_score": 61.58,
+    "last_alert_type": "retest",
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 73.44
   },
   "FROG::breakout_retest_hold": {
@@ -1489,7 +1489,7 @@
   "HQY::double_bottom": {
     "invalid_below": 80.4548,
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 87.36
   },
   "HQY::inverse_head_shoulders": {
@@ -1641,11 +1641,11 @@
   },
   "IIIV::breakout_retest_hold": {
     "invalid_below": 19.512900000000002,
-    "last_alert_at": "2026-05-22T20:23:15.843060+00:00",
+    "last_alert_at": "2026-05-22T21:47:00.201343+00:00",
     "last_alert_score": 63.84,
-    "last_alert_type": "breakout",
+    "last_alert_type": "retest",
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 19.7202
   },
   "IIIV::bull_flag": {
@@ -2314,7 +2314,7 @@
     "last_alert_score": 59.02,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 45.0
   },
   "ORRF::breakout_retest_hold": {
