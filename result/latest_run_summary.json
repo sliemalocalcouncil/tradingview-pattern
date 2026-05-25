@@ -1,6 +1,6 @@
 {
-  "run_id": "20260522T214415Z-5830c3",
-  "asof": "2026-05-22T21:44:15.859157+00:00",
+  "run_id": "20260525T162518Z-928c45",
+  "asof": "2026-05-25T16:25:18.725944+00:00",
   "n_signals": 274,
   "n_alerts_eligible": 0,
   "by_pattern": {
@@ -38,9 +38,7 @@
       "base_on_base": 3
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "retest": 3
-    },
+    "alerts_by_type": {},
     "tickers_processed": 153,
     "tickers_with_errors": 0
   },
@@ -49,7 +47,7 @@
     {
       "ticker": "NTSK",
       "pattern": "breakout_retest_hold",
-      "score": 67.52,
+      "score": 67.54,
       "state": "setup"
     },
     {
@@ -67,13 +65,13 @@
     {
       "ticker": "RBRK",
       "pattern": "ascending_triangle",
-      "score": 64.42,
+      "score": 64.45,
       "state": "candidate"
     },
     {
       "ticker": "GDYN",
       "pattern": "high_tight_pullback",
-      "score": 64.41,
+      "score": 64.42,
       "state": "candidate"
     }
   ]
