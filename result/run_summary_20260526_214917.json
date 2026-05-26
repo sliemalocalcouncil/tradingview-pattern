@@ -1,0 +1,84 @@
+{
+  "run_id": "20260526T214917Z-ee42ad",
+  "asof": "2026-05-26T21:49:17.614377+00:00",
+  "n_signals": 291,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 71,
+    "vcp": 79,
+    "ascending_triangle": 23,
+    "cup_with_handle": 6,
+    "breakout_retest_hold": 35,
+    "high_tight_pullback": 18,
+    "bull_flag": 40,
+    "inverse_head_shoulders": 13,
+    "tight_consolidation": 1,
+    "base_on_base": 5
+  },
+  "by_state": {
+    "forming": 80,
+    "absent": 104,
+    "setup": 47,
+    "candidate": 19,
+    "invalidated": 5,
+    "breakout_confirmed": 30,
+    "retest_hold": 4,
+    "breakout_failed": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 71,
+      "vcp": 79,
+      "ascending_triangle": 23,
+      "cup_with_handle": 6,
+      "breakout_retest_hold": 35,
+      "high_tight_pullback": 18,
+      "bull_flag": 40,
+      "inverse_head_shoulders": 12,
+      "tight_consolidation": 1,
+      "base_on_base": 5
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "retest": 2,
+      "failed": 1,
+      "breakout": 3,
+      "setup": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "HNRG",
+      "pattern": "breakout_retest_hold",
+      "score": 75.93,
+      "state": "setup"
+    },
+    {
+      "ticker": "SAIL",
+      "pattern": "breakout_retest_hold",
+      "score": 68.79,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INOD",
+      "pattern": "breakout_retest_hold",
+      "score": 67.86,
+      "state": "setup"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "double_bottom",
+      "score": 67.39,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "breakout_retest_hold",
+      "score": 66.26,
+      "state": "invalidated"
+    }
+  ]
+}
