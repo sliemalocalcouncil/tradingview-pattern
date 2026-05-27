@@ -1,0 +1,81 @@
+{
+  "run_id": "20260527T220054Z-d294b1",
+  "asof": "2026-05-27T22:00:54.633211+00:00",
+  "n_signals": 298,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 73,
+    "vcp": 82,
+    "ascending_triangle": 30,
+    "cup_with_handle": 5,
+    "breakout_retest_hold": 33,
+    "bull_flag": 35,
+    "high_tight_pullback": 21,
+    "inverse_head_shoulders": 13,
+    "tight_consolidation": 1,
+    "base_on_base": 5
+  },
+  "by_state": {
+    "forming": 101,
+    "absent": 114,
+    "setup": 43,
+    "invalidated": 7,
+    "candidate": 12,
+    "breakout_confirmed": 17,
+    "retest_hold": 3,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 73,
+      "vcp": 82,
+      "ascending_triangle": 30,
+      "cup_with_handle": 5,
+      "breakout_retest_hold": 31,
+      "bull_flag": 35,
+      "high_tight_pullback": 21,
+      "inverse_head_shoulders": 13,
+      "tight_consolidation": 1,
+      "base_on_base": 5
+    },
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "breakout": 1
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SNOW",
+      "pattern": "breakout_retest_hold",
+      "score": 73.08,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 69.2,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GENI",
+      "pattern": "breakout_retest_hold",
+      "score": 65.62,
+      "state": "setup"
+    },
+    {
+      "ticker": "PRCH",
+      "pattern": "breakout_retest_hold",
+      "score": 63.83,
+      "state": "setup"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "double_bottom",
+      "score": 63.09,
+      "state": "candidate"
+    }
+  ]
+}
