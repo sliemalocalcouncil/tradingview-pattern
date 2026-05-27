@@ -1,0 +1,81 @@
+{
+  "run_id": "20260527T172338Z-184157",
+  "asof": "2026-05-27T17:23:38.825739+00:00",
+  "n_signals": 197,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 50,
+    "vcp": 57,
+    "ascending_triangle": 20,
+    "cup_with_handle": 4,
+    "breakout_retest_hold": 23,
+    "bull_flag": 28,
+    "inverse_head_shoulders": 9,
+    "tight_consolidation": 1,
+    "high_tight_pullback": 5
+  },
+  "by_state": {
+    "forming": 52,
+    "absent": 78,
+    "setup": 34,
+    "invalidated": 17,
+    "breakout_confirmed": 12,
+    "breakout_failed": 1,
+    "candidate": 2,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 50,
+      "vcp": 57,
+      "ascending_triangle": 19,
+      "cup_with_handle": 4,
+      "breakout_retest_hold": 16,
+      "bull_flag": 28,
+      "inverse_head_shoulders": 8,
+      "tight_consolidation": 1,
+      "high_tight_pullback": 5
+    },
+    "active_monitor_events": 9,
+    "alerts_by_type": {
+      "invalidated": 9,
+      "failed": 1,
+      "breakout": 2
+    },
+    "tickers_processed": 153,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SNOW",
+      "pattern": "breakout_retest_hold",
+      "score": 67.08,
+      "state": "setup"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "breakout_retest_hold",
+      "score": 65.61,
+      "state": "setup"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "double_bottom",
+      "score": 64.12,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RBRK",
+      "pattern": "double_bottom",
+      "score": 63.94,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "double_bottom",
+      "score": 63.03,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
