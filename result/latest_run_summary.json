@@ -1,46 +1,48 @@
 {
-  "run_id": "20260527T172338Z-184157",
-  "asof": "2026-05-27T17:23:38.825739+00:00",
-  "n_signals": 197,
+  "run_id": "20260527T193731Z-e45b38",
+  "asof": "2026-05-27T19:37:31.231533+00:00",
+  "n_signals": 252,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 50,
-    "vcp": 57,
-    "ascending_triangle": 20,
-    "cup_with_handle": 4,
-    "breakout_retest_hold": 23,
-    "bull_flag": 28,
+    "double_bottom": 63,
+    "vcp": 71,
+    "ascending_triangle": 24,
+    "cup_with_handle": 5,
+    "breakout_retest_hold": 26,
+    "bull_flag": 33,
+    "high_tight_pullback": 17,
     "inverse_head_shoulders": 9,
     "tight_consolidation": 1,
-    "high_tight_pullback": 5
+    "base_on_base": 3
   },
   "by_state": {
-    "forming": 52,
-    "absent": 78,
-    "setup": 34,
-    "invalidated": 17,
-    "breakout_confirmed": 12,
-    "breakout_failed": 1,
-    "candidate": 2,
-    "retest_hold": 1
+    "forming": 94,
+    "absent": 94,
+    "setup": 31,
+    "invalidated": 5,
+    "breakout_failed": 3,
+    "candidate": 8,
+    "breakout_confirmed": 14,
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 50,
-      "vcp": 57,
-      "ascending_triangle": 19,
-      "cup_with_handle": 4,
-      "breakout_retest_hold": 16,
-      "bull_flag": 28,
-      "inverse_head_shoulders": 8,
+      "double_bottom": 63,
+      "vcp": 71,
+      "ascending_triangle": 24,
+      "cup_with_handle": 5,
+      "breakout_retest_hold": 25,
+      "bull_flag": 33,
+      "high_tight_pullback": 17,
+      "inverse_head_shoulders": 9,
       "tight_consolidation": 1,
-      "high_tight_pullback": 5
+      "base_on_base": 3
     },
-    "active_monitor_events": 9,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "invalidated": 9,
-      "failed": 1,
-      "breakout": 2
+      "invalidated": 2,
+      "failed": 2,
+      "retest": 2
     },
     "tickers_processed": 153,
     "tickers_with_errors": 0
@@ -50,32 +52,32 @@
     {
       "ticker": "SNOW",
       "pattern": "breakout_retest_hold",
-      "score": 67.08,
+      "score": 69.42,
       "state": "setup"
     },
     {
-      "ticker": "RBRK",
-      "pattern": "breakout_retest_hold",
-      "score": 65.61,
-      "state": "setup"
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 67.31,
+      "state": "candidate"
     },
     {
       "ticker": "FROG",
       "pattern": "double_bottom",
-      "score": 64.12,
+      "score": 62.94,
       "state": "candidate"
     },
     {
-      "ticker": "RBRK",
-      "pattern": "double_bottom",
-      "score": 63.94,
-      "state": "candidate"
+      "ticker": "GENI",
+      "pattern": "breakout_retest_hold",
+      "score": 62.79,
+      "state": "breakout_failed"
     },
     {
-      "ticker": "FTAI",
-      "pattern": "double_bottom",
-      "score": 63.03,
-      "state": "breakout_confirmed"
+      "ticker": "NOW",
+      "pattern": "breakout_retest_hold",
+      "score": 62.6,
+      "state": "setup"
     }
   ]
 }
