@@ -1,0 +1,81 @@
+{
+  "run_id": "20260528T203006Z-3998dc",
+  "asof": "2026-05-28T20:30:06.971181+00:00",
+  "n_signals": 334,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 91,
+    "vcp": 106,
+    "ascending_triangle": 33,
+    "cup_with_handle": 8,
+    "bull_flag": 38,
+    "high_tight_pullback": 16,
+    "base_on_base": 7,
+    "breakout_retest_hold": 31,
+    "inverse_head_shoulders": 4
+  },
+  "by_state": {
+    "forming": 92,
+    "absent": 107,
+    "candidate": 25,
+    "setup": 56,
+    "breakout_confirmed": 45,
+    "invalidated": 4,
+    "breakout_failed": 2,
+    "retest_hold": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 91,
+      "vcp": 106,
+      "ascending_triangle": 33,
+      "cup_with_handle": 8,
+      "bull_flag": 38,
+      "high_tight_pullback": 16,
+      "base_on_base": 7,
+      "breakout_retest_hold": 31,
+      "inverse_head_shoulders": 4
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "breakout": 11,
+      "failed": 1,
+      "retest": 2
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "COHU",
+      "pattern": "high_tight_pullback",
+      "score": 68.91,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 68.56,
+      "state": "candidate"
+    },
+    {
+      "ticker": "DIOD",
+      "pattern": "double_bottom",
+      "score": 67.8,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GDYN",
+      "pattern": "double_bottom",
+      "score": 67.52,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "double_bottom",
+      "score": 66.73,
+      "state": "candidate"
+    }
+  ]
+}
