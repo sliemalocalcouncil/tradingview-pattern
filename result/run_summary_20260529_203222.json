@@ -1,0 +1,80 @@
+{
+  "run_id": "20260529T203222Z-53a237",
+  "asof": "2026-05-29T20:32:22.850087+00:00",
+  "n_signals": 351,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 91,
+    "vcp": 108,
+    "cup_with_handle": 8,
+    "bull_flag": 43,
+    "high_tight_pullback": 17,
+    "ascending_triangle": 36,
+    "base_on_base": 7,
+    "breakout_retest_hold": 36,
+    "inverse_head_shoulders": 5
+  },
+  "by_state": {
+    "forming": 90,
+    "absent": 112,
+    "candidate": 22,
+    "setup": 69,
+    "breakout_confirmed": 49,
+    "invalidated": 6,
+    "retest_hold": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 91,
+      "vcp": 108,
+      "cup_with_handle": 8,
+      "bull_flag": 43,
+      "high_tight_pullback": 17,
+      "ascending_triangle": 36,
+      "base_on_base": 7,
+      "breakout_retest_hold": 35,
+      "inverse_head_shoulders": 5
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "breakout": 7,
+      "setup": 1,
+      "invalidated": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SNOW",
+      "pattern": "high_tight_pullback",
+      "score": 70.32,
+      "state": "setup"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "breakout_retest_hold",
+      "score": 69.68,
+      "state": "setup"
+    },
+    {
+      "ticker": "TTWO",
+      "pattern": "breakout_retest_hold",
+      "score": 68.66,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "MOD",
+      "pattern": "double_bottom",
+      "score": 68.09,
+      "state": "candidate"
+    },
+    {
+      "ticker": "HQY",
+      "pattern": "breakout_retest_hold",
+      "score": 68.07,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
