@@ -1,0 +1,82 @@
+{
+  "run_id": "20260529T173628Z-add969",
+  "asof": "2026-05-29T17:36:28.426540+00:00",
+  "n_signals": 292,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 77,
+    "vcp": 96,
+    "cup_with_handle": 7,
+    "bull_flag": 37,
+    "ascending_triangle": 30,
+    "base_on_base": 7,
+    "breakout_retest_hold": 26,
+    "high_tight_pullback": 8,
+    "inverse_head_shoulders": 4
+  },
+  "by_state": {
+    "forming": 86,
+    "absent": 83,
+    "candidate": 5,
+    "setup": 72,
+    "breakout_confirmed": 28,
+    "invalidated": 8,
+    "retest_hold": 3,
+    "breakout_failed": 7
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 77,
+      "vcp": 96,
+      "cup_with_handle": 7,
+      "bull_flag": 37,
+      "ascending_triangle": 29,
+      "base_on_base": 7,
+      "breakout_retest_hold": 24,
+      "high_tight_pullback": 8,
+      "inverse_head_shoulders": 4
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "breakout": 4,
+      "retest": 1,
+      "failed": 2
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "HQY",
+      "pattern": "breakout_retest_hold",
+      "score": 65.55,
+      "state": "setup"
+    },
+    {
+      "ticker": "FTAI",
+      "pattern": "breakout_retest_hold",
+      "score": 65.2,
+      "state": "setup"
+    },
+    {
+      "ticker": "FLEX",
+      "pattern": "ascending_triangle",
+      "score": 63.27,
+      "state": "setup"
+    },
+    {
+      "ticker": "SAIL",
+      "pattern": "double_bottom",
+      "score": 62.97,
+      "state": "setup"
+    },
+    {
+      "ticker": "NTSK",
+      "pattern": "double_bottom",
+      "score": 62.18,
+      "state": "candidate"
+    }
+  ]
+}
