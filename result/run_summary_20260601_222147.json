@@ -1,0 +1,84 @@
+{
+  "run_id": "20260601T222147Z-3ecdd3",
+  "asof": "2026-06-01T22:21:47.106210+00:00",
+  "n_signals": 321,
+  "n_alerts_eligible": 2,
+  "by_pattern": {
+    "double_bottom": 85,
+    "vcp": 108,
+    "cup_with_handle": 10,
+    "bull_flag": 31,
+    "high_tight_pullback": 15,
+    "ascending_triangle": 36,
+    "base_on_base": 8,
+    "breakout_retest_hold": 25,
+    "inverse_head_shoulders": 3
+  },
+  "by_state": {
+    "forming": 67,
+    "absent": 88,
+    "candidate": 15,
+    "setup": 68,
+    "breakout_confirmed": 62,
+    "invalidated": 11,
+    "retest_hold": 9,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 85,
+      "vcp": 108,
+      "cup_with_handle": 10,
+      "bull_flag": 31,
+      "high_tight_pullback": 15,
+      "ascending_triangle": 36,
+      "base_on_base": 8,
+      "breakout_retest_hold": 23,
+      "inverse_head_shoulders": 3
+    },
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "setup": 1,
+      "invalidated": 1,
+      "retest": 4,
+      "breakout": 7,
+      "watch": 1,
+      "failed": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MOD",
+      "pattern": "double_bottom",
+      "score": 70.74,
+      "state": "setup"
+    },
+    {
+      "ticker": "SAIL",
+      "pattern": "high_tight_pullback",
+      "score": 70.62,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RDVT",
+      "pattern": "high_tight_pullback",
+      "score": 69.16,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "high_tight_pullback",
+      "score": 68.43,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NOW",
+      "pattern": "high_tight_pullback",
+      "score": 67.79,
+      "state": "candidate"
+    }
+  ]
+}
