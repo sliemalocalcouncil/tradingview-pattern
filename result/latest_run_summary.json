@@ -1,46 +1,47 @@
 {
-  "run_id": "20260602T213340Z-318d5f",
-  "asof": "2026-06-02T21:33:40.879294+00:00",
-  "n_signals": 354,
+  "run_id": "20260603T182429Z-28fa1b",
+  "asof": "2026-06-03T18:24:29.680933+00:00",
+  "n_signals": 319,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 82,
-    "vcp": 110,
-    "bull_flag": 42,
-    "cup_with_handle": 7,
-    "breakout_retest_hold": 43,
-    "high_tight_pullback": 37,
-    "ascending_triangle": 23,
-    "base_on_base": 7,
-    "inverse_head_shoulders": 3
+    "double_bottom": 76,
+    "vcp": 96,
+    "cup_with_handle": 5,
+    "bull_flag": 58,
+    "ascending_triangle": 21,
+    "breakout_retest_hold": 42,
+    "high_tight_pullback": 11,
+    "base_on_base": 8,
+    "inverse_head_shoulders": 2
   },
   "by_state": {
-    "absent": 92,
-    "invalidated": 9,
-    "setup": 72,
-    "forming": 96,
-    "candidate": 30,
-    "breakout_confirmed": 41,
-    "breakout_failed": 10,
-    "retest_hold": 4
+    "absent": 104,
+    "invalidated": 23,
+    "setup": 54,
+    "forming": 87,
+    "candidate": 10,
+    "breakout_confirmed": 25,
+    "breakout_failed": 14,
+    "retest_hold": 2
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 82,
-      "vcp": 110,
-      "bull_flag": 42,
-      "cup_with_handle": 7,
-      "breakout_retest_hold": 43,
-      "high_tight_pullback": 37,
-      "ascending_triangle": 23,
-      "base_on_base": 7,
-      "inverse_head_shoulders": 3
+      "double_bottom": 76,
+      "vcp": 96,
+      "cup_with_handle": 5,
+      "bull_flag": 58,
+      "ascending_triangle": 19,
+      "breakout_retest_hold": 35,
+      "high_tight_pullback": 11,
+      "base_on_base": 8,
+      "inverse_head_shoulders": 2
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 9,
     "alerts_by_type": {
-      "breakout": 4,
-      "failed": 3,
-      "retest": 1
+      "invalidated": 6,
+      "breakout": 2,
+      "retest": 2,
+      "failed": 6
     },
     "tickers_processed": 180,
     "tickers_with_errors": 0
@@ -48,33 +49,33 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "APP",
-      "pattern": "high_tight_pullback",
-      "score": 69.67,
+      "ticker": "BELFB",
+      "pattern": "double_bottom",
+      "score": 65.52,
       "state": "candidate"
     },
     {
-      "ticker": "VNET",
+      "ticker": "VRT",
       "pattern": "breakout_retest_hold",
-      "score": 67.64,
-      "state": "candidate"
-    },
-    {
-      "ticker": "NTSK",
-      "pattern": "breakout_retest_hold",
-      "score": 66.81,
-      "state": "invalidated"
+      "score": 65.14,
+      "state": "setup"
     },
     {
       "ticker": "POWI",
       "pattern": "double_bottom",
-      "score": 66.72,
+      "score": 63.83,
       "state": "candidate"
     },
     {
-      "ticker": "COHU",
-      "pattern": "high_tight_pullback",
-      "score": 66.47,
+      "ticker": "VICR",
+      "pattern": "double_bottom",
+      "score": 63.75,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GLW",
+      "pattern": "double_bottom",
+      "score": 62.45,
       "state": "candidate"
     }
   ]

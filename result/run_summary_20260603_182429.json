@@ -1,0 +1,82 @@
+{
+  "run_id": "20260603T182429Z-28fa1b",
+  "asof": "2026-06-03T18:24:29.680933+00:00",
+  "n_signals": 319,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 76,
+    "vcp": 96,
+    "cup_with_handle": 5,
+    "bull_flag": 58,
+    "ascending_triangle": 21,
+    "breakout_retest_hold": 42,
+    "high_tight_pullback": 11,
+    "base_on_base": 8,
+    "inverse_head_shoulders": 2
+  },
+  "by_state": {
+    "absent": 104,
+    "invalidated": 23,
+    "setup": 54,
+    "forming": 87,
+    "candidate": 10,
+    "breakout_confirmed": 25,
+    "breakout_failed": 14,
+    "retest_hold": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 76,
+      "vcp": 96,
+      "cup_with_handle": 5,
+      "bull_flag": 58,
+      "ascending_triangle": 19,
+      "breakout_retest_hold": 35,
+      "high_tight_pullback": 11,
+      "base_on_base": 8,
+      "inverse_head_shoulders": 2
+    },
+    "active_monitor_events": 9,
+    "alerts_by_type": {
+      "invalidated": 6,
+      "breakout": 2,
+      "retest": 2,
+      "failed": 6
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "BELFB",
+      "pattern": "double_bottom",
+      "score": 65.52,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VRT",
+      "pattern": "breakout_retest_hold",
+      "score": 65.14,
+      "state": "setup"
+    },
+    {
+      "ticker": "POWI",
+      "pattern": "double_bottom",
+      "score": 63.83,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VICR",
+      "pattern": "double_bottom",
+      "score": 63.75,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GLW",
+      "pattern": "double_bottom",
+      "score": 62.45,
+      "state": "candidate"
+    }
+  ]
+}
