@@ -1,0 +1,82 @@
+{
+  "run_id": "20260605T163155Z-19757a",
+  "asof": "2026-06-05T16:31:55.659425+00:00",
+  "n_signals": 302,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 75,
+    "vcp": 85,
+    "breakout_retest_hold": 36,
+    "bull_flag": 61,
+    "ascending_triangle": 25,
+    "cup_with_handle": 9,
+    "inverse_head_shoulders": 2,
+    "base_on_base": 6,
+    "high_tight_pullback": 3
+  },
+  "by_state": {
+    "forming": 66,
+    "absent": 109,
+    "setup": 22,
+    "invalidated": 58,
+    "candidate": 7,
+    "breakout_failed": 8,
+    "breakout_confirmed": 23,
+    "retest_hold": 9
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 74,
+      "vcp": 85,
+      "breakout_retest_hold": 20,
+      "bull_flag": 61,
+      "ascending_triangle": 24,
+      "cup_with_handle": 9,
+      "inverse_head_shoulders": 2,
+      "base_on_base": 6,
+      "high_tight_pullback": 3
+    },
+    "active_monitor_events": 18,
+    "alerts_by_type": {
+      "invalidated": 20,
+      "retest": 3,
+      "failed": 3,
+      "breakout": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "POWI",
+      "pattern": "double_bottom",
+      "score": 67.54,
+      "state": "candidate"
+    },
+    {
+      "ticker": "SAIL",
+      "pattern": "double_bottom",
+      "score": 63.98,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "double_bottom",
+      "score": 63.42,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "double_bottom",
+      "score": 62.37,
+      "state": "candidate"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "double_bottom",
+      "score": 62.28,
+      "state": "candidate"
+    }
+  ]
+}
