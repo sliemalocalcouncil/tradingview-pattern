@@ -1,0 +1,82 @@
+{
+  "run_id": "20260605T185932Z-7f5bdb",
+  "asof": "2026-06-05T18:59:32.291649+00:00",
+  "n_signals": 345,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 87,
+    "vcp": 98,
+    "bull_flag": 80,
+    "ascending_triangle": 28,
+    "cup_with_handle": 8,
+    "breakout_retest_hold": 31,
+    "inverse_head_shoulders": 3,
+    "base_on_base": 6,
+    "high_tight_pullback": 4
+  },
+  "by_state": {
+    "forming": 74,
+    "absent": 138,
+    "invalidated": 78,
+    "breakout_confirmed": 23,
+    "setup": 16,
+    "breakout_failed": 8,
+    "candidate": 3,
+    "retest_hold": 5
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 86,
+      "vcp": 98,
+      "bull_flag": 80,
+      "ascending_triangle": 28,
+      "cup_with_handle": 8,
+      "breakout_retest_hold": 23,
+      "inverse_head_shoulders": 3,
+      "base_on_base": 6,
+      "high_tight_pullback": 4
+    },
+    "active_monitor_events": 9,
+    "alerts_by_type": {
+      "invalidated": 17,
+      "retest": 1,
+      "failed": 5,
+      "breakout": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "TTAN",
+      "pattern": "breakout_retest_hold",
+      "score": 64.53,
+      "state": "candidate"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "double_bottom",
+      "score": 62.97,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VSEC",
+      "pattern": "breakout_retest_hold",
+      "score": 60.23,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FROG",
+      "pattern": "double_bottom",
+      "score": 59.6,
+      "state": "forming"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "cup_with_handle",
+      "score": 59.43,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
