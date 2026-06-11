@@ -1,6 +1,6 @@
 {
-  "run_id": "20260611T202722Z-c11718",
-  "asof": "2026-06-11T20:27:22.982958+00:00",
+  "run_id": "20260611T222400Z-260eca",
+  "asof": "2026-06-11T22:24:00.384054+00:00",
   "n_signals": 306,
   "n_alerts_eligible": 1,
   "by_pattern": {
@@ -19,8 +19,9 @@
     "forming": 67,
     "setup": 42,
     "invalidated": 28,
-    "breakout_confirmed": 34,
-    "candidate": 17
+    "breakout_confirmed": 30,
+    "candidate": 17,
+    "retest_hold": 4
   },
   "counters": {
     "detector_hits": {
@@ -36,7 +37,7 @@
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "breakout": 5
+      "retest": 2
     },
     "tickers_processed": 180,
     "tickers_with_errors": 0
@@ -46,14 +47,14 @@
     {
       "ticker": "JOYY",
       "pattern": "breakout_retest_hold",
-      "score": 74.32,
+      "score": 74.4,
       "state": "breakout_confirmed"
     },
     {
       "ticker": "MPTI",
       "pattern": "double_bottom",
       "score": 67.26,
-      "state": "breakout_confirmed"
+      "state": "retest_hold"
     },
     {
       "ticker": "SRAD",
@@ -62,15 +63,15 @@
       "state": "candidate"
     },
     {
-      "ticker": "JOYY",
+      "ticker": "APH",
       "pattern": "double_bottom",
-      "score": 65.83,
+      "score": 65.92,
       "state": "candidate"
     },
     {
-      "ticker": "APH",
+      "ticker": "JOYY",
       "pattern": "double_bottom",
-      "score": 65.82,
+      "score": 65.91,
       "state": "candidate"
     }
   ]

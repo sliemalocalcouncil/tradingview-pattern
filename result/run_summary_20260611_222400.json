@@ -1,0 +1,78 @@
+{
+  "run_id": "20260611T222400Z-260eca",
+  "asof": "2026-06-11T22:24:00.384054+00:00",
+  "n_signals": 306,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 91,
+    "vcp": 108,
+    "ascending_triangle": 14,
+    "breakout_retest_hold": 16,
+    "cup_with_handle": 9,
+    "bull_flag": 52,
+    "inverse_head_shoulders": 5,
+    "base_on_base": 6,
+    "high_tight_pullback": 5
+  },
+  "by_state": {
+    "absent": 118,
+    "forming": 67,
+    "setup": 42,
+    "invalidated": 28,
+    "breakout_confirmed": 30,
+    "candidate": 17,
+    "retest_hold": 4
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 91,
+      "vcp": 108,
+      "ascending_triangle": 14,
+      "breakout_retest_hold": 16,
+      "cup_with_handle": 9,
+      "bull_flag": 52,
+      "inverse_head_shoulders": 5,
+      "base_on_base": 6,
+      "high_tight_pullback": 5
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "retest": 2
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "JOYY",
+      "pattern": "breakout_retest_hold",
+      "score": 74.4,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "MPTI",
+      "pattern": "double_bottom",
+      "score": 67.26,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "SRAD",
+      "pattern": "high_tight_pullback",
+      "score": 66.72,
+      "state": "candidate"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 65.92,
+      "state": "candidate"
+    },
+    {
+      "ticker": "JOYY",
+      "pattern": "double_bottom",
+      "score": 65.91,
+      "state": "candidate"
+    }
+  ]
+}
