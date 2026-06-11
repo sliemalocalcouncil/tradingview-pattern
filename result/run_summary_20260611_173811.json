@@ -1,0 +1,81 @@
+{
+  "run_id": "20260611T173811Z-10dad5",
+  "asof": "2026-06-11T17:38:11.970502+00:00",
+  "n_signals": 264,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 73,
+    "vcp": 91,
+    "ascending_triangle": 12,
+    "breakout_retest_hold": 16,
+    "bull_flag": 53,
+    "cup_with_handle": 8,
+    "inverse_head_shoulders": 3,
+    "base_on_base": 6,
+    "high_tight_pullback": 2
+  },
+  "by_state": {
+    "absent": 115,
+    "forming": 64,
+    "setup": 14,
+    "invalidated": 33,
+    "breakout_confirmed": 19,
+    "candidate": 11,
+    "retest_hold": 7,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 73,
+      "vcp": 91,
+      "ascending_triangle": 12,
+      "breakout_retest_hold": 14,
+      "bull_flag": 53,
+      "cup_with_handle": 8,
+      "inverse_head_shoulders": 3,
+      "base_on_base": 6,
+      "high_tight_pullback": 2
+    },
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "invalidated": 2,
+      "breakout": 1,
+      "failed": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "AIR",
+      "pattern": "breakout_retest_hold",
+      "score": 69.73,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "JOYY",
+      "pattern": "breakout_retest_hold",
+      "score": 69.14,
+      "state": "setup"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 66.1,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GFS",
+      "pattern": "breakout_retest_hold",
+      "score": 65.78,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MPTI",
+      "pattern": "double_bottom",
+      "score": 63.93,
+      "state": "setup"
+    }
+  ]
+}
