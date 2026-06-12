@@ -1,0 +1,82 @@
+{
+  "run_id": "20260612T190938Z-105b1c",
+  "asof": "2026-06-12T19:09:38.110129+00:00",
+  "n_signals": 284,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 83,
+    "vcp": 101,
+    "ascending_triangle": 8,
+    "cup_with_handle": 9,
+    "breakout_retest_hold": 27,
+    "inverse_head_shoulders": 6,
+    "bull_flag": 34,
+    "base_on_base": 6,
+    "high_tight_pullback": 10
+  },
+  "by_state": {
+    "forming": 74,
+    "absent": 93,
+    "setup": 56,
+    "invalidated": 21,
+    "candidate": 11,
+    "breakout_confirmed": 23,
+    "retest_hold": 3,
+    "breakout_failed": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 83,
+      "vcp": 101,
+      "ascending_triangle": 8,
+      "cup_with_handle": 9,
+      "breakout_retest_hold": 27,
+      "inverse_head_shoulders": 6,
+      "bull_flag": 34,
+      "base_on_base": 6,
+      "high_tight_pullback": 10
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "failed": 2,
+      "retest": 2,
+      "watch": 1,
+      "breakout": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MGNI",
+      "pattern": "breakout_retest_hold",
+      "score": 70.42,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PGY",
+      "pattern": "breakout_retest_hold",
+      "score": 66.53,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "BELFB",
+      "pattern": "breakout_retest_hold",
+      "score": 65.89,
+      "state": "setup"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 64.69,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MGNI",
+      "pattern": "high_tight_pullback",
+      "score": 64.56,
+      "state": "candidate"
+    }
+  ]
+}
