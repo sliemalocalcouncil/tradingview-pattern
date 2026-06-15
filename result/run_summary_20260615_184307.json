@@ -1,0 +1,84 @@
+{
+  "run_id": "20260615T184307Z-7a346b",
+  "asof": "2026-06-15T18:43:07.166689+00:00",
+  "n_signals": 311,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 79,
+    "vcp": 96,
+    "ascending_triangle": 16,
+    "tight_consolidation": 1,
+    "breakout_retest_hold": 43,
+    "cup_with_handle": 10,
+    "high_tight_pullback": 25,
+    "inverse_head_shoulders": 5,
+    "bull_flag": 30,
+    "base_on_base": 6
+  },
+  "by_state": {
+    "absent": 96,
+    "forming": 71,
+    "breakout_failed": 2,
+    "setup": 74,
+    "candidate": 24,
+    "retest_hold": 7,
+    "invalidated": 15,
+    "breakout_confirmed": 22
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 79,
+      "vcp": 96,
+      "ascending_triangle": 16,
+      "tight_consolidation": 1,
+      "breakout_retest_hold": 41,
+      "cup_with_handle": 10,
+      "high_tight_pullback": 25,
+      "inverse_head_shoulders": 5,
+      "bull_flag": 30,
+      "base_on_base": 6
+    },
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "retest": 1,
+      "setup": 1,
+      "invalidated": 2,
+      "breakout": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "NVT",
+      "pattern": "breakout_retest_hold",
+      "score": 71.73,
+      "state": "setup"
+    },
+    {
+      "ticker": "DIOD",
+      "pattern": "breakout_retest_hold",
+      "score": 68.3,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "POWI",
+      "pattern": "breakout_retest_hold",
+      "score": 68.21,
+      "state": "setup"
+    },
+    {
+      "ticker": "COHU",
+      "pattern": "high_tight_pullback",
+      "score": 68.14,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FRMI",
+      "pattern": "high_tight_pullback",
+      "score": 67.64,
+      "state": "candidate"
+    }
+  ]
+}

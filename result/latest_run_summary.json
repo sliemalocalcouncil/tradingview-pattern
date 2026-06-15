@@ -1,43 +1,48 @@
 {
-  "run_id": "20260612T211430Z-a7b0f7",
-  "asof": "2026-06-12T21:14:30.453428+00:00",
-  "n_signals": 304,
+  "run_id": "20260615T184307Z-7a346b",
+  "asof": "2026-06-15T18:43:07.166689+00:00",
+  "n_signals": 311,
   "n_alerts_eligible": 1,
   "by_pattern": {
-    "double_bottom": 88,
-    "vcp": 104,
-    "ascending_triangle": 8,
-    "breakout_retest_hold": 31,
-    "cup_with_handle": 9,
-    "high_tight_pullback": 16,
+    "double_bottom": 79,
+    "vcp": 96,
+    "ascending_triangle": 16,
+    "tight_consolidation": 1,
+    "breakout_retest_hold": 43,
+    "cup_with_handle": 10,
+    "high_tight_pullback": 25,
     "inverse_head_shoulders": 5,
-    "bull_flag": 37,
+    "bull_flag": 30,
     "base_on_base": 6
   },
   "by_state": {
-    "forming": 80,
-    "absent": 97,
-    "breakout_confirmed": 27,
-    "setup": 55,
-    "candidate": 21,
-    "retest_hold": 5,
-    "invalidated": 18,
-    "breakout_failed": 1
+    "absent": 96,
+    "forming": 71,
+    "breakout_failed": 2,
+    "setup": 74,
+    "candidate": 24,
+    "retest_hold": 7,
+    "invalidated": 15,
+    "breakout_confirmed": 22
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 88,
-      "vcp": 104,
-      "ascending_triangle": 8,
-      "breakout_retest_hold": 31,
-      "cup_with_handle": 9,
-      "high_tight_pullback": 16,
+      "double_bottom": 79,
+      "vcp": 96,
+      "ascending_triangle": 16,
+      "tight_consolidation": 1,
+      "breakout_retest_hold": 41,
+      "cup_with_handle": 10,
+      "high_tight_pullback": 25,
       "inverse_head_shoulders": 5,
-      "bull_flag": 37,
+      "bull_flag": 30,
       "base_on_base": 6
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 2,
     "alerts_by_type": {
+      "retest": 1,
+      "setup": 1,
+      "invalidated": 2,
       "breakout": 1
     },
     "tickers_processed": 180,
@@ -46,34 +51,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "MGNI",
+      "ticker": "NVT",
       "pattern": "breakout_retest_hold",
-      "score": 76.9,
-      "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "MGNI",
-      "pattern": "high_tight_pullback",
-      "score": 69.8,
-      "state": "candidate"
+      "score": 71.73,
+      "state": "setup"
     },
     {
       "ticker": "DIOD",
       "pattern": "breakout_retest_hold",
-      "score": 67.14,
+      "score": 68.3,
       "state": "retest_hold"
     },
     {
-      "ticker": "MPTI",
+      "ticker": "POWI",
       "pattern": "breakout_retest_hold",
-      "score": 67.05,
+      "score": 68.21,
       "state": "setup"
     },
     {
-      "ticker": "BELFB",
-      "pattern": "breakout_retest_hold",
-      "score": 66.95,
-      "state": "setup"
+      "ticker": "COHU",
+      "pattern": "high_tight_pullback",
+      "score": 68.14,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FRMI",
+      "pattern": "high_tight_pullback",
+      "score": 67.64,
+      "state": "candidate"
     }
   ]
 }
