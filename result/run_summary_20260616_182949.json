@@ -1,0 +1,84 @@
+{
+  "run_id": "20260616T182949Z-5d4842",
+  "asof": "2026-06-16T18:29:49.342948+00:00",
+  "n_signals": 307,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 80,
+    "vcp": 93,
+    "ascending_triangle": 19,
+    "tight_consolidation": 1,
+    "cup_with_handle": 9,
+    "breakout_retest_hold": 41,
+    "high_tight_pullback": 9,
+    "inverse_head_shoulders": 7,
+    "bull_flag": 42,
+    "base_on_base": 6
+  },
+  "by_state": {
+    "breakout_confirmed": 22,
+    "absent": 107,
+    "forming": 76,
+    "setup": 59,
+    "retest_hold": 3,
+    "candidate": 15,
+    "invalidated": 17,
+    "breakout_failed": 8
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 80,
+      "vcp": 93,
+      "ascending_triangle": 19,
+      "tight_consolidation": 1,
+      "cup_with_handle": 9,
+      "breakout_retest_hold": 38,
+      "high_tight_pullback": 9,
+      "inverse_head_shoulders": 7,
+      "bull_flag": 42,
+      "base_on_base": 6
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "retest": 2,
+      "invalidated": 2,
+      "failed": 1,
+      "watch": 1
+    },
+    "tickers_processed": 180,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MPTI",
+      "pattern": "double_bottom",
+      "score": 70.35,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NVT",
+      "pattern": "breakout_retest_hold",
+      "score": 69.97,
+      "state": "setup"
+    },
+    {
+      "ticker": "JCI",
+      "pattern": "breakout_retest_hold",
+      "score": 69.14,
+      "state": "setup"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "breakout_retest_hold",
+      "score": 68.18,
+      "state": "setup"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "breakout_retest_hold",
+      "score": 68.05,
+      "state": "retest_hold"
+    }
+  ]
+}
