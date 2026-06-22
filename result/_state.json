@@ -4251,9 +4251,9 @@
     "trigger": 15.42
   },
   "SRAD::bull_flag": {
-    "invalid_below": 14.86365,
+    "invalid_below": 14.430250000000001,
     "state": "absent",
-    "trigger": 17.425
+    "trigger": 16.895
   },
   "SRAD::double_bottom": {
     "invalid_below": 15.2478,
@@ -4279,7 +4279,7 @@
     "last_alert_at": "2026-06-05T16:35:21.507279+00:00",
     "last_alert_score": 47.85,
     "last_alert_type": "retest",
-    "monitored_until": "2026-06-26T20:00:00+00:00",
+    "monitored_until": "2026-06-29T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 13.73
   },
@@ -4297,27 +4297,27 @@
     "trigger": 56.2125
   },
   "STEP::breakout_retest_hold": {
-    "invalid_below": 45.66375,
+    "invalid_below": 42.4809,
     "last_alert_at": "2026-05-19T19:05:34.616135+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-26T20:00:00+00:00",
+    "monitored_until": "2026-06-29T20:00:00+00:00",
     "state": "breakout_confirmed",
-    "trigger": 45.12
+    "trigger": 42.89
   },
   "STEP::bull_flag": {
-    "invalid_below": 40.63125,
+    "invalid_below": 42.266349999999996,
     "state": "absent",
-    "trigger": 46.61
+    "trigger": 49.45
   },
   "STEP::double_bottom": {
-    "invalid_below": 40.63125,
+    "invalid_below": 42.266349999999996,
     "last_alert_at": "2026-06-15T21:47:54.633554+00:00",
     "last_alert_score": 59.36,
     "last_alert_type": "retest",
-    "monitored_until": "2026-06-25T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 46.7
+    "monitored_until": null,
+    "state": "absent",
+    "trigger": 49.45
   },
   "STEP::high_tight_pullback": {
     "invalid_below": 45.433125,
@@ -4423,8 +4423,8 @@
     "last_alert_at": "2026-06-05T16:34:24.232590+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-25T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 50.565
   },
   "TRMB::bull_flag": {
@@ -4433,10 +4433,10 @@
     "trigger": 57.96
   },
   "TRMB::double_bottom": {
-    "invalid_below": 48.1665,
+    "invalid_below": 47.2012,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 51.532961
+    "trigger": 51.61
   },
   "TRMB::vcp": {
     "invalid_below": 48.1665,
