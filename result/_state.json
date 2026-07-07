@@ -875,26 +875,26 @@
     "trigger": 17.615
   },
   "BILI::breakout_retest_hold": {
-    "invalid_below": 16.765649999999997,
+    "invalid_below": 17.523,
     "last_alert_at": "2026-05-04T16:06:02.264042+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-13T20:00:00+00:00",
+    "monitored_until": "2026-07-14T20:00:00+00:00",
     "state": "setup",
-    "trigger": 17.05
+    "trigger": 17.56
   },
   "BILI::bull_flag": {
-    "invalid_below": 16.680975,
+    "invalid_below": 17.4345,
     "state": "forming",
-    "trigger": 17.615
+    "trigger": 18.04
   },
   "BILI::double_bottom": {
-    "invalid_below": 16.6465,
+    "invalid_below": 16.47905,
     "last_alert_at": "2026-05-21T16:41:52.902731+00:00",
     "last_alert_score": 37.88,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "absent",
+    "monitored_until": "2026-07-14T20:00:00+00:00",
+    "state": "setup",
     "trigger": 17.615
   },
   "BILI::vcp": {
