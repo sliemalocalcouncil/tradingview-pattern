@@ -2906,31 +2906,25 @@
     "trigger": 46.75
   },
   "MA::ascending_triangle": {
-    "invalid_below": 499.5329,
-    "monitored_until": "2026-07-13T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 515.45
-  },
-  "MA::breakout_retest_hold": {
-    "invalid_below": 504.108,
-    "monitored_until": "2026-07-08T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 504.36
+    "invalid_below": 514.8398,
+    "monitored_until": null,
+    "state": "absent",
+    "trigger": 543.645
   },
   "MA::bull_flag": {
-    "invalid_below": 519.0359000000001,
+    "invalid_below": 522.37505,
     "state": "forming",
-    "trigger": 541.89
+    "trigger": 543.645
   },
   "MA::double_bottom": {
-    "invalid_below": 491.91885,
+    "invalid_below": 499.5329,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 541.89
+    "trigger": 543.645
   },
   "MA::vcp": {
     "invalid_below": 475.8929,
-    "monitored_until": "2026-07-14T20:00:00+00:00",
+    "monitored_until": "2026-07-15T20:00:00+00:00",
     "state": "setup",
     "trigger": 504.635
   },
@@ -3487,18 +3481,18 @@
     "trigger": 164.59
   },
   "NVT::bull_flag": {
-    "invalid_below": 147.5924,
+    "invalid_below": 144.3616,
     "state": "absent",
     "trigger": 169.66
   },
   "NVT::double_bottom": {
-    "invalid_below": 155.85655,
+    "invalid_below": 144.3616,
     "last_alert_at": "2026-07-03T16:00:02.746416+00:00",
     "last_alert_score": 52.84,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 176.7799
+    "state": "forming",
+    "trigger": 159.8599
   },
   "NVT::vcp": {
     "invalid_below": 150.71484999999998,
@@ -5272,7 +5266,7 @@
     "trigger": 46.48
   },
   "WOLF::bull_flag": {
-    "invalid_below": 38.4544985,
+    "invalid_below": 33.499849999999995,
     "state": "absent",
     "trigger": 51.65
   },
@@ -5303,7 +5297,7 @@
     "last_alert_at": "2026-06-12T16:48:57.240874+00:00",
     "last_alert_score": 43.49,
     "last_alert_type": "invalidated",
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 70.0
   },
   "XEL::ascending_triangle": {
