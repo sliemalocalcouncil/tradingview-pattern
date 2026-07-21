@@ -2632,34 +2632,28 @@
     "state": "invalidated",
     "trigger": 17.39
   },
-  "INTU::ascending_triangle": {
-    "invalid_below": 255.47945,
-    "monitored_until": "2026-07-21T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 283.79
-  },
   "INTU::breakout_retest_hold": {
-    "invalid_below": 268.983,
+    "invalid_below": 276.6456,
     "last_alert_at": "2026-04-29T15:58:30.535088+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-23T20:00:00+00:00",
+    "monitored_until": "2026-07-28T20:00:00+00:00",
     "state": "setup",
-    "trigger": 274.97
+    "trigger": 280.35
   },
   "INTU::bull_flag": {
-    "invalid_below": 267.6245,
+    "invalid_below": 275.2484,
     "state": "absent",
-    "trigger": 296.0
+    "trigger": 302.07
   },
   "INTU::double_bottom": {
-    "invalid_below": 263.97015,
+    "invalid_below": 265.0241,
     "last_alert_at": "2026-05-21T16:41:15.674056+00:00",
     "last_alert_score": 47.03,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "absent",
-    "trigger": 296.0
+    "trigger": 302.07
   },
   "INTU::high_tight_pullback": {
     "invalid_below": 391.94135,
@@ -2677,7 +2671,8 @@
     "last_alert_at": "2026-05-13T18:24:56.538036+00:00",
     "last_alert_score": 48.2,
     "last_alert_type": "invalidated",
-    "state": "absent",
+    "monitored_until": "2026-07-28T20:00:00+00:00",
+    "state": "setup",
     "trigger": 283.79
   },
   "ISSC::ascending_triangle": {
@@ -2736,14 +2731,14 @@
     "trigger": 147.25
   },
   "JCI::cup_with_handle": {
-    "invalid_below": 134.1767,
-    "state": "forming",
-    "trigger": 151.18
+    "invalid_below": 135.0731485,
+    "state": "absent",
+    "trigger": 147.25
   },
   "JCI::double_bottom": {
-    "invalid_below": 134.1767,
+    "invalid_below": 136.358475,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 147.25
   },
   "JCI::inverse_head_shoulders": {
@@ -4310,15 +4305,15 @@
     "trigger": 65.84
   },
   "SBGSY::cup_with_handle": {
-    "invalid_below": 58.83405,
+    "invalid_below": 58.26275,
     "state": "forming",
     "trigger": 65.54
   },
   "SBGSY::double_bottom": {
-    "invalid_below": 59.0015,
+    "invalid_below": 58.85375,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 63.7
+    "trigger": 63.06
   },
   "SBGSY::vcp": {
     "invalid_below": 58.9129485,
