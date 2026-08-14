@@ -386,18 +386,18 @@
     "trigger": 34.635
   },
   "AOSL::bull_flag": {
-    "invalid_below": 32.94825,
-    "state": "forming",
-    "trigger": 34.635
+    "invalid_below": 28.959,
+    "state": "absent",
+    "trigger": 36.995
   },
   "AOSL::double_bottom": {
-    "invalid_below": 32.94825,
+    "invalid_below": 28.959,
     "last_alert_at": "2026-06-05T16:32:14.289623+00:00",
     "last_alert_score": 48.63,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
-    "trigger": 36.47
+    "state": "absent",
+    "trigger": 36.995
   },
   "AOSL::high_tight_pullback": {
     "invalid_below": 33.85445,
