@@ -749,7 +749,7 @@
     "trigger": 628.22
   },
   "AXON::double_bottom": {
-    "invalid_below": 581.2485,
+    "invalid_below": 586.1735985,
     "last_alert_at": "2026-06-09T16:38:40.299540+00:00",
     "last_alert_score": 51.56,
     "last_alert_type": "invalidated",
@@ -2460,18 +2460,18 @@
     "trigger": 49.68
   },
   "HPE::breakout_retest_hold": {
-    "invalid_below": 54.393966,
+    "invalid_below": 56.5191,
     "last_alert_at": "2026-08-12T15:09:05.657288+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 53.565
+    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 56.463
   },
   "HPE::bull_flag": {
-    "invalid_below": 48.3832985,
-    "state": "absent",
-    "trigger": 54.6299
+    "invalid_below": 56.233650000000004,
+    "state": "candidate",
+    "trigger": 63.44
   },
   "HPE::double_bottom": {
     "invalid_below": 50.9245,
@@ -2498,7 +2498,7 @@
     "last_alert_at": "2026-06-02T18:07:56.852577+00:00",
     "last_alert_score": 49.47,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 49.68
   },
