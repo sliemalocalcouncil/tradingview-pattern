@@ -2458,7 +2458,7 @@
   },
   "HPE::bull_flag": {
     "invalid_below": 56.233650000000004,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 63.44
   },
   "HPE::double_bottom": {
@@ -3637,27 +3637,27 @@
     "trigger": 15.865
   },
   "NTSK::breakout_retest_hold": {
-    "invalid_below": 15.577649999999998,
+    "invalid_below": 14.5827,
     "last_alert_at": "2026-07-23T19:43:04.026360+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
     "state": "setup",
-    "trigger": 15.47
+    "trigger": 14.41
   },
   "NTSK::bull_flag": {
-    "invalid_below": 10.376975,
+    "invalid_below": 14.50905,
     "state": "absent",
-    "trigger": 14.065
+    "trigger": 16.58
   },
   "NTSK::double_bottom": {
-    "invalid_below": 14.646949999999999,
+    "invalid_below": 14.50905,
     "last_alert_at": "2026-08-14T17:21:01.621158+00:00",
     "last_alert_score": 63.65,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
-    "state": "retest_hold",
-    "trigger": 15.65
+    "monitored_until": null,
+    "state": "candidate",
+    "trigger": 16.58
   },
   "NTSK::high_tight_pullback": {
     "invalid_below": 15.498975,
@@ -3682,8 +3682,8 @@
     "last_alert_at": "2026-07-29T16:15:01.840849+00:00",
     "last_alert_score": 48.59,
     "last_alert_type": "failed",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "state": "retest_hold",
     "trigger": 15.02
   },
   "NUAI::breakout_retest_hold": {
@@ -5588,7 +5588,8 @@
   },
   "WOLF::ascending_triangle": {
     "invalid_below": 28.6044985,
-    "state": "forming",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "state": "setup",
     "trigger": 33.51
   },
   "WOLF::breakout_retest_hold": {
@@ -5610,8 +5611,8 @@
     "last_alert_at": "2026-06-01T19:22:31.307464+00:00",
     "last_alert_score": 51.7,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "state": "setup",
     "trigger": 33.51
   },
   "WOLF::high_tight_pullback": {
