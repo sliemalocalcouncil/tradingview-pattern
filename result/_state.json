@@ -1431,7 +1431,7 @@
   "CTRE::breakout_retest_hold": {
     "invalid_below": 38.7387,
     "monitored_until": "2026-08-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 39.139
   },
   "CTRE::bull_flag": {
@@ -3158,8 +3158,8 @@
   },
   "MA::double_bottom": {
     "invalid_below": 547.7190999999999,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-08-26T20:00:00+00:00",
+    "state": "setup",
     "trigger": 570.67
   },
   "MA::tight_consolidation": {
@@ -3756,7 +3756,7 @@
     "last_alert_score": 52.84,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 174.9
   },
   "NVT::high_tight_pullback": {
