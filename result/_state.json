@@ -224,7 +224,7 @@
     "last_alert_score": 57.55,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "absent",
     "trigger": 154.0
   },
   "ALKT::ascending_triangle": {
@@ -4660,7 +4660,7 @@
     "last_alert_score": 51.2,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "absent",
     "trigger": 13.4401
   },
   "SRAD::high_tight_pullback": {
@@ -5283,7 +5283,7 @@
   },
   "VSEC::ascending_triangle": {
     "invalid_below": 228.33285,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 247.85
   },
   "VSEC::breakout_retest_hold": {
@@ -5311,7 +5311,7 @@
     "last_alert_score": 60.33,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 245.61
   },
   "VSEC::high_tight_pullback": {
