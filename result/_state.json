@@ -5227,7 +5227,7 @@
   },
   "VRT::ascending_triangle": {
     "invalid_below": 280.97125,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 300.3
   },
   "VRT::base_on_base": {
@@ -5243,12 +5243,12 @@
     "last_alert_at": "2026-06-04T16:56:21.503855+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 285.9038
   },
   "VRT::bull_flag": {
-    "invalid_below": 286.99945,
+    "invalid_below": 266.25535,
     "state": "absent",
     "trigger": 300.3
   },
@@ -5258,7 +5258,7 @@
     "last_alert_score": 52.24,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 300.3
   },
   "VRT::high_tight_pullback": {
@@ -5277,8 +5277,8 @@
     "last_alert_at": "2026-06-10T17:25:02.006570+00:00",
     "last_alert_score": 44.92,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 286.36
   },
   "VSEC::ascending_triangle": {
