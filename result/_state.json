@@ -5000,9 +5000,9 @@
     "trigger": 10.97
   },
   "UEC::bull_flag": {
-    "invalid_below": 10.41145,
+    "invalid_below": 10.76605,
     "state": "absent",
-    "trigger": 11.83
+    "trigger": 11.64
   },
   "UEC::cup_with_handle": {
     "invalid_below": 10.41145,
@@ -5041,7 +5041,7 @@
     "last_alert_at": "2026-05-18T16:50:48.200408+00:00",
     "last_alert_score": 45.45,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 10.12
   },
@@ -5715,7 +5715,7 @@
     "last_alert_score": 61.62,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 190.97
   },
   "ZS::high_tight_pullback": {
