@@ -751,7 +751,7 @@
     "last_alert_score": 51.56,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 646.87
   },
   "AXON::high_tight_pullback": {
@@ -1327,21 +1327,21 @@
     "trigger": 59.88
   },
   "COHU::breakout_retest_hold": {
-    "invalid_below": 53.46,
+    "invalid_below": 52.569,
     "last_alert_at": "2026-06-05T16:32:07.207096+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 52.65
   },
   "COHU::bull_flag": {
-    "invalid_below": 53.19,
+    "invalid_below": 52.3035,
     "state": "absent",
     "trigger": 63.53
   },
   "COHU::double_bottom": {
-    "invalid_below": 53.19,
+    "invalid_below": 52.3035,
     "last_alert_at": "2026-08-13T17:32:02.606888+00:00",
     "last_alert_score": 66.77,
     "last_alert_type": "breakout",
@@ -1419,7 +1419,7 @@
   "CTRE::breakout_retest_hold": {
     "invalid_below": 39.43665,
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 39.785
   },
   "CTRE::bull_flag": {
@@ -1670,10 +1670,10 @@
     "trigger": 419.0
   },
   "ETN::double_bottom": {
-    "invalid_below": 435.37,
+    "invalid_below": 409.78954999999996,
     "monitored_until": null,
-    "state": "candidate",
-    "trigger": 478.0
+    "state": "absent",
+    "trigger": 436.95
   },
   "ETN::high_tight_pullback": {
     "invalid_below": 437.40895,
@@ -1687,8 +1687,8 @@
   },
   "ETN::vcp": {
     "invalid_below": 352.753125,
-    "monitored_until": "2026-08-27T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 417.425
   },
   "EXE::base_on_base": {
@@ -2583,7 +2583,7 @@
   "ICE::ascending_triangle": {
     "invalid_below": 147.1787,
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "absent",
     "trigger": 160.505
   },
   "ICE::breakout_retest_hold": {
@@ -3091,15 +3091,6 @@
     "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 32.19
-  },
-  "LUNR::ascending_triangle": {
-    "invalid_below": 11.7018,
-    "last_alert_at": "2026-08-14T19:12:02.572586+00:00",
-    "last_alert_score": 52.29,
-    "last_alert_type": "retest",
-    "monitored_until": "2026-08-21T20:00:00+00:00",
-    "state": "retest_hold",
-    "trigger": 17.305
   },
   "LUNR::breakout_retest_hold": {
     "invalid_below": 17.14878,
@@ -4718,7 +4709,7 @@
     "last_alert_score": 58.39,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 53.02
   },
   "STEP::high_tight_pullback": {
@@ -4900,7 +4891,7 @@
   "TTAN::bull_flag": {
     "invalid_below": 91.7823,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 96.759
   },
   "TTAN::double_bottom": {
@@ -5636,22 +5627,22 @@
     "trigger": 51.65
   },
   "XEL::ascending_triangle": {
-    "invalid_below": 75.24415,
+    "invalid_below": 77.23384999999999,
     "last_alert_at": "2026-05-07T18:08:53.298664+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 79.45
+    "state": "absent",
+    "trigger": 80.81
   },
   "XEL::breakout_retest_hold": {
     "invalid_below": 77.73479999999999,
     "last_alert_at": "2026-07-21T17:33:05.614033+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "breakout_confirmed",
-    "trigger": 79.325
+    "trigger": 78.14
   },
   "XEL::bull_flag": {
     "invalid_below": 78.13019999999999,
@@ -5664,9 +5655,9 @@
     "trigger": 83.85
   },
   "XEL::double_bottom": {
-    "invalid_below": 74.9388,
+    "invalid_below": 75.24415,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 80.81
   },
   "XEL::tight_consolidation": {
