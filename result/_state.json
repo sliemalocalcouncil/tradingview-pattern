@@ -1613,7 +1613,7 @@
     "last_alert_at": "2026-08-03T16:45:01.053279+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 30.765
   },
@@ -1628,9 +1628,9 @@
     "trigger": 33.58
   },
   "EPRT::double_bottom": {
-    "invalid_below": 29.99325,
+    "invalid_below": 29.6288,
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 31.4
   },
   "EPRT::vcp": {
@@ -2231,17 +2231,17 @@
     "trigger": 50.87
   },
   "GFS::bull_flag": {
-    "invalid_below": 48.8166,
+    "invalid_below": 46.359024999999995,
     "state": "absent",
     "trigger": 55.58
   },
   "GFS::double_bottom": {
-    "invalid_below": 46.836749999999995,
+    "invalid_below": 47.36865,
     "last_alert_at": "2026-07-23T17:49:01.739727+00:00",
     "last_alert_score": 50.86,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 55.58
   },
   "GFS::high_tight_pullback": {
@@ -2278,7 +2278,7 @@
     "trigger": 169.95
   },
   "GLW::bull_flag": {
-    "invalid_below": 148.43949999999998,
+    "invalid_below": 147.01125,
     "state": "absent",
     "trigger": 176.9399
   },
@@ -4608,7 +4608,7 @@
     "trigger": 341.9498
   },
   "SNOW::double_bottom": {
-    "invalid_below": 311.5752,
+    "invalid_below": 312.3632,
     "last_alert_at": "2026-06-09T16:37:56.738350+00:00",
     "last_alert_score": 51.57,
     "last_alert_type": "invalidated",
@@ -4630,7 +4630,7 @@
     "last_alert_at": "2026-05-28T17:37:55.964926+00:00",
     "last_alert_score": 49.2,
     "last_alert_type": "breakout",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 279.4899
   },
@@ -5173,7 +5173,7 @@
     "last_alert_score": 52.25,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "absent",
     "trigger": 232.35
   },
   "VNET::ascending_triangle": {
@@ -5710,7 +5710,7 @@
     "last_alert_score": 61.62,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 190.97
   },
   "ZS::high_tight_pullback": {
