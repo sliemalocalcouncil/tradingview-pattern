@@ -1710,7 +1710,7 @@
   "EXE::double_bottom": {
     "invalid_below": 91.24055,
     "monitored_until": "2026-08-28T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 95.77
   },
   "EXE::vcp": {
