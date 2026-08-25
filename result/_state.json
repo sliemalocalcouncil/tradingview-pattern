@@ -1180,7 +1180,7 @@
     "trigger": 12.49
   },
   "CLBT::ascending_triangle": {
-    "invalid_below": 10.1652,
+    "invalid_below": 10.440999999999999,
     "last_alert_at": "2026-08-11T15:24:02.470580+00:00",
     "last_alert_score": 57.88,
     "last_alert_type": "failed",
@@ -1212,13 +1212,13 @@
     "trigger": 16.81
   },
   "CLBT::double_bottom": {
-    "invalid_below": 10.2046,
+    "invalid_below": 10.440999999999999,
     "last_alert_at": "2026-07-22T17:48:01.699907+00:00",
     "last_alert_score": 58.27,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
-    "trigger": 11.42
+    "monitored_until": "2026-09-01T20:00:00+00:00",
+    "state": "breakout_confirmed",
+    "trigger": 11.405
   },
   "CLBT::high_tight_pullback": {
     "invalid_below": 15.6418,
@@ -1577,9 +1577,9 @@
     "trigger": 11.94
   },
   "EPRT::ascending_triangle": {
-    "invalid_below": 30.160700000000002,
+    "invalid_below": 30.30845,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 31.4
   },
   "EPRT::base_on_base": {
@@ -1607,7 +1607,7 @@
     "trigger": 33.58
   },
   "EPRT::double_bottom": {
-    "invalid_below": 29.59925,
+    "invalid_below": 29.648500000000002,
     "monitored_until": null,
     "state": "absent",
     "trigger": 31.4
@@ -1757,7 +1757,7 @@
     "last_alert_score": 58.7,
     "last_alert_type": "breakout",
     "monitored_until": "2026-09-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 70.29
   },
   "EXPO::bull_flag": {
@@ -1777,7 +1777,7 @@
     "last_alert_score": 50.52,
     "last_alert_type": "failed",
     "monitored_until": "2026-09-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 70.285
   },
   "EXPO::high_tight_pullback": {
@@ -3061,7 +3061,7 @@
   },
   "LBRDA::breakout_retest_hold": {
     "invalid_below": 35.838,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 36.45
   },
   "LBRDA::bull_flag": {
@@ -3549,7 +3549,7 @@
   },
   "NOW::bull_flag": {
     "invalid_below": 125.55794999999999,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 131.18
   },
   "NOW::cup_with_handle": {
@@ -3649,7 +3649,7 @@
     "last_alert_score": 63.65,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 15.32
   },
   "NTSK::high_tight_pullback": {
