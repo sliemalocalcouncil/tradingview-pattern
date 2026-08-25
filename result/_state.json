@@ -16,7 +16,7 @@
     "trigger": 13.875
   },
   "ADSK::ascending_triangle": {
-    "invalid_below": 240.23164999999997,
+    "invalid_below": 242.81234999999998,
     "last_alert_at": "2026-05-11T19:01:06.766879+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
@@ -46,12 +46,12 @@
     "trigger": 260.74
   },
   "ADSK::double_bottom": {
-    "invalid_below": 242.81234999999998,
+    "invalid_below": 241.7781,
     "last_alert_at": "2026-08-14T18:10:03.117121+00:00",
     "last_alert_score": 61.97,
     "last_alert_type": "retest",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 260.74
   },
   "ADSK::high_tight_pullback": {
@@ -550,7 +550,7 @@
     "last_alert_score": 63.34,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 228.5799
   },
   "APPF::high_tight_pullback": {
@@ -1460,19 +1460,19 @@
     "trigger": 107.8176
   },
   "DIOD::bull_flag": {
-    "invalid_below": 89.0834,
+    "invalid_below": 87.2316,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 110.11
+    "trigger": 103.64
   },
   "DIOD::double_bottom": {
-    "invalid_below": 90.51657499999999,
+    "invalid_below": 87.2316,
     "last_alert_at": "2026-06-25T21:02:05.193117+00:00",
     "last_alert_score": 65.22,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 110.11
+    "state": "forming",
+    "trigger": 100.89
   },
   "DIOD::high_tight_pullback": {
     "invalid_below": 99.273225,
@@ -4798,15 +4798,15 @@
     "trigger": 488.68
   },
   "TT::cup_with_handle": {
-    "invalid_below": 443.64399999999995,
+    "invalid_below": 438.19695,
     "state": "absent",
     "trigger": 493.71
   },
   "TT::double_bottom": {
-    "invalid_below": 443.836075,
+    "invalid_below": 438.19695,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 478.02
+    "state": "forming",
+    "trigger": 465.78
   },
   "TT::tight_consolidation": {
     "invalid_below": 466.29407499999996,
