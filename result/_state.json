@@ -32,16 +32,16 @@
     "trigger": 238.59
   },
   "ADSK::breakout_retest_hold": {
-    "invalid_below": 235.39725,
+    "invalid_below": 234.172125,
     "last_alert_at": "2026-07-16T15:51:02.530788+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-10-26T20:00:00+00:00",
+    "monitored_until": "2026-10-27T20:00:00+00:00",
     "state": "setup",
     "trigger": 235.89
   },
   "ADSK::bull_flag": {
-    "invalid_below": 234.208375,
+    "invalid_below": 232.98943749999998,
     "monitored_until": null,
     "state": "forming",
     "trigger": 251.74
@@ -53,13 +53,13 @@
     "trigger": 260.74
   },
   "ADSK::double_bottom": {
-    "invalid_below": 214.93685,
+    "invalid_below": 227.141,
     "last_alert_at": "2026-08-14T18:10:03.117121+00:00",
     "last_alert_score": 61.97,
     "last_alert_type": "retest",
-    "monitored_until": "2026-10-26T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 238.59
+    "monitored_until": null,
+    "state": "forming",
+    "trigger": 251.74
   },
   "ADSK::high_tight_pullback": {
     "invalid_below": 224.57015,
@@ -72,13 +72,13 @@
     "trigger": 212.7997
   },
   "ADSK::vcp": {
-    "invalid_below": 196.1923985,
+    "invalid_below": 225.16115,
     "last_alert_at": "2026-06-09T16:37:40.802743+00:00",
     "last_alert_score": 41.97,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-10-26T20:00:00+00:00",
-    "state": "breakout_confirmed",
-    "trigger": 222.0
+    "monitored_until": "2026-10-27T20:00:00+00:00",
+    "state": "retest_hold",
+    "trigger": 238.59
   },
   "AEVA::ascending_triangle": {
     "invalid_below": 13.4748,
@@ -397,25 +397,19 @@
     "state": "absent",
     "trigger": 28.22
   },
-  "AOSL::breakout_retest_hold": {
-    "invalid_below": 28.3338,
-    "monitored_until": "2026-10-15T20:00:00+00:00",
-    "state": "breakout_confirmed",
-    "trigger": 28.12
-  },
   "AOSL::bull_flag": {
     "invalid_below": 25.1372,
     "state": "absent",
     "trigger": 29.5
   },
   "AOSL::double_bottom": {
-    "invalid_below": 25.1372,
+    "invalid_below": 21.40405,
     "last_alert_at": "2026-06-05T16:32:14.289623+00:00",
     "last_alert_score": 48.63,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 27.33
+    "trigger": 23.27
   },
   "AOSL::high_tight_pullback": {
     "invalid_below": 28.1907,
@@ -437,7 +431,7 @@
     "last_alert_score": 43.8,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "invalidated",
     "trigger": 26.2471
   },
   "APH::ascending_triangle": {
@@ -3275,18 +3269,18 @@
     "trigger": 184.03
   },
   "MOD::bull_flag": {
-    "invalid_below": 153.63045,
+    "invalid_below": 142.97275,
     "state": "absent",
-    "trigger": 187.2869
+    "trigger": 174.43
   },
   "MOD::double_bottom": {
-    "invalid_below": 171.68550000000002,
+    "invalid_below": 142.97275,
     "last_alert_at": "2026-06-10T19:55:26.193778+00:00",
     "last_alert_score": 50.21,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 194.22
+    "trigger": 154.635
   },
   "MOD::high_tight_pullback": {
     "invalid_below": 183.2888,
@@ -3513,9 +3507,9 @@
     "trigger": 127.37
   },
   "NTES::breakout_retest_hold": {
-    "invalid_below": 124.443,
-    "monitored_until": "2026-10-26T20:00:00+00:00",
-    "state": "setup",
+    "invalid_below": 123.8292,
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 125.38
   },
   "NTES::bull_flag": {
@@ -3525,7 +3519,7 @@
   },
   "NTES::cup_with_handle": {
     "invalid_below": 114.9495,
-    "monitored_until": "2026-10-26T20:00:00+00:00",
+    "monitored_until": "2026-10-27T20:00:00+00:00",
     "state": "setup",
     "trigger": 122.82
   },
@@ -3547,7 +3541,7 @@
   },
   "NTES::vcp": {
     "invalid_below": 114.9495,
-    "monitored_until": "2026-10-26T20:00:00+00:00",
+    "monitored_until": "2026-10-27T20:00:00+00:00",
     "state": "setup",
     "trigger": 122.82
   },
