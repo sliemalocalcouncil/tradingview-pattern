@@ -1305,9 +1305,9 @@
     "trigger": 53.21
   },
   "COHU::bull_flag": {
-    "invalid_below": 59.81905,
+    "invalid_below": 44.61065,
     "state": "absent",
-    "trigger": 72.46
+    "trigger": 56.68
   },
   "COHU::double_bottom": {
     "invalid_below": 49.7819,
@@ -1315,7 +1315,7 @@
     "last_alert_score": 66.77,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 55.765
   },
   "COHU::high_tight_pullback": {
@@ -1324,13 +1324,13 @@
     "trigger": 67.22
   },
   "COHU::vcp": {
-    "invalid_below": 47.4179,
+    "invalid_below": 49.515950000000004,
     "last_alert_at": "2026-07-29T21:29:03.593828+00:00",
     "last_alert_score": 47.25,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 58.705
+    "state": "invalidated",
+    "trigger": 75.72
   },
   "CTGO::breakout_retest_hold": {
     "invalid_below": 16.6419,
